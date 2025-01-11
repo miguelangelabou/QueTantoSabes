@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url('../fuentes/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+  src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Chakra Petch";
-  src: url('../fuentes/Chakra_Petch/ChakraPetch-Regular.ttf') format('truetype');
+  src: url('../fonts/Chakra_Petch/ChakraPetch-Regular.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Press Start 2P';
-  src: url('../fuentes/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+  src: url('../fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,6 @@
 /*@font-face {
   src: url('../fuentes/Sometype_Mono/SometypeMono-VariableFont_wght.ttf') format('truetype');
   font-family: "Sometype Mono";
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }*/
