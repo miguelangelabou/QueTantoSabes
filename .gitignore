@@ -1,0 +1,5 @@
+# Ignorar directorios
+/vendor/
+
+# Ignorar todos los archivos .log
+*.composer

@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Degradado negro */
+      url('../imgs/imgFondo.jpg'); 
+  background-size: cover; /* Mantiene la proporción de la imagen */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;   
+  color: BLACK;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+h2 {
+  color: #333333;
+}
+
+.boton-atras {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.boton-atras:hover {
+  background-color: #0056b3;
+}
+
+.email {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+}

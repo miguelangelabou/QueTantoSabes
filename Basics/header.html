@@ -1,0 +1,43 @@
+<div class="navegacionPrincipal">
+  <header>
+    <div class="botonesIzquierda">
+      <a href="#" id="scrollToTop">
+        <img src="../imgs/imgLogo.png" class="logo">
+      </a>
+      <a href="inicio.html" class="enlace-navegacion" id="inicio-perfil">Inicio</a>
+      <a href="proyecto.html" class="enlace-navegacion">Proyecto</a>    
+      <a href="game.html" class="enlace-navegacion">Partida</a>
+      <a href="admin.html" class="enlace-navegacion" id="menuAdmin" style="display: none;">Admin</a>
+    </div>
+
+    <a class="botonIniciarSesion" id="botonIniciarSesion" href="inicio.html#target">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="32" cy="32" r="30" fill="none" stroke="white" />
+        <circle cx="32" cy="24" r="10" fill="none" stroke="currentColor" />
+        <path d="M16 48c0-8 8-14 16-14s16 6 16 14" fill="none" stroke="white" />
+      </svg>
+    </a>
+
+    <div class="boton-menu-header" id="boton-menu-header" onclick="botonPerfil()">
+      <img id="foto-usuario-header" alt="Perfil"> <!-- Imagen de perfil -->
+    </div>
+
+  </header>
+  
+  <div class="tarjetaPerfil" id="perfil">
+    <div class="bloqueAvatar">
+      <div class="avatar-header">
+        <img id="foto-usuario-headerPerfil" alt="Perfil">
+      </div>
+    </div>
+    <div id="nombre-usuario-header" class="titulo">Cargando...</div>
+    <div class="subtitulo email"><span id="email-usuario-header">Cargando...</span></div>              
+    <div class="estadisticasTarjeta">
+      <div class="subtitulo" id="victorias-usuario-header">Victorias: Cargando...</div>
+      <div class="subtitulo" id="derrotas-usuario-header">Derrotas: Cargando...</div>
+    </div>
+    <div class="wrapperTarjeta">
+      <button class="botonCerrarSesion" onclick="cerrarSesion()">Cerrar Sesión</button>
+    </div>
+  </div>  
+</div>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="htt../imgs/imgLogo.png" />
+    <title>Página no encontrada - 404</title>
+
+
+    <style>
+      body {
+        background-color: black;
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Degradado negro */
+            url('../imgs/imgFondo.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;        
+        color: white;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+
+      .contenedor {
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        margin: auto;
+      }
+      
+      img {
+        max-width: 250px;
+      }
+
+      h1 {
+        font-size: 100px;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      .boton a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .boton a:hover {
+        background-color: #0056b3;
+      }
+    </style>
+</head>
+<body>
+  <div class="contenedor">
+    <img src="../imgs/imgLogo.png">
+    <h1>404</h1>
+    <h2>Página no encontrada</h2>
+    <p>Lo sentimos, la página que buscas no existe.</p>
+    <div class="boton">
+        <a href="/pages/inicio.html">Volver a la página de inicio</a>
+    </div>
+  </div>
+</body>
+</html>

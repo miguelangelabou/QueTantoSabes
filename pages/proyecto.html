@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../imgs/imgLogo.png" />
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="../Basics/footer.css" />
+    <link rel="stylesheet" href="../Basics/header.css" />
+    <link rel="stylesheet" href="../Basics/html-design.css" />
+    <link rel="stylesheet" href="../Basics/loading-screen.css" />    
+    <link rel="stylesheet" href="../cssPages/proyecto.css" />
+
+    <!-- Script de funciones -->
+    <script src="../Js/functions.js" defer></script>
+    <script src="../Js/auth.js" defer></script>
+
+    <title>¿Qué tanto sabes? - Proyecto</title>
+</head>
+  
+<body>
+    <!-- PESTAÑA DE CARGA -->
+    <div id="pantalla-carga" class="pantalla-carga">
+        <div class="pantalla-carga">
+        <img src="../imgs/imgLogo.png" class="pantalla-carga-imagen">
+        </div>
+    </div>   
+    
+    <div class="fondo-main" id="contenido">
+        <div class="contenido">       
+
+            <!-- HEADER -->
+            <div id="header"></div>
+            <script>
+                fetch('../Basics/header.html')
+                    .then(response => response.text())
+                    .then(data => document.getElementById('header').innerHTML = data);
+            </script>
+            <!-- FIN HEADER -->
+            
+            <!-- MAIN -->
+            <main>
+                <div class="fondo-informacion">
+                    <div class="contenedor-informacion">
+                        <div>
+                            <h1 class="titulo-informacion">¿De qué trata este juego web?</h1>
+                            <p class="parrafo-informacion">
+                                "¿Qué tanto sabes?" es un emocionante juego de trivia venezolano que desafía a los jugadores a demostrar sus conocimientos sobre cultura, historia, geografía, música y deportes de Venezuela. Los participantes responden preguntas de opción múltiple, avanzando a través de niveles cada vez más difíciles y acumulando puntos por cada respuesta correcta. Al final del juego, pueden comparar sus puntuaciones con otros jugadores para ver quién se corona como el campeón. ¡Es una manera divertida de aprender y competir mientras exploras lo mejor de Venezuela!
+                            </p>
+                        </div>
+
+                        <div>
+                            <h1 class="titulo-informacion2">Metodología del juego web</h1>
+                            <p class="parrafo-informacion2">
+                                En "¿Qué tanto sabes?", los jugadores enfrentan preguntas de opción múltiple sobre cultura, historia, geografía, música y deportes de Venezuela, con niveles de dificultad que van desde principiantes hasta expertos. Cada partida incluye comodines como "50% y 50%", que elimina dos respuestas incorrectas; "Saltar pregunta", que permite evitar una pregunta; "Vida extra", que añade una vida más; y "ConsultarIA", que muestra información de la inteligencia artificial. El objetivo es acumular puntos respondiendo correctamente en un tiempo límite de 60 segundos. Si no se responde a tiempo, se pierden vidas y se retrocede. ¡Prepárate para aprender y disfrutar en esta emocionante aventura!
+                            </p>
+                        </div>            
+                    </div>
+
+                    <div class="titulo-proyecto"></div>
+
+                    <div class="contenedor-secundario">
+                        <div class="desarrollador">
+                            <div class="tarjeta-desarrollador-fondo miguelangel">
+                                <div class="tarjeta-desarrollador-miguel">
+                                    <div class="avatar">
+                                        <img src="../imgs/Miguelangel.png" alt="Perfil de Miguelangel">
+                                    </div>
+                                    <div class="nombre-desarrollador">Miguelangel Abou</div>
+                                    <div class="info-desarrollador">
+                                        <div class="subtitulo-desarrollador">BackEnd - FrontEnd</div>
+                                        <div class="subtitulo-desarrollador">Ing. Sistemas</div>
+                                        <div class="subtitulo-desarrollador">Semestre 3</div>   
+                                        <div class="cuboRubik">
+                                            <div class="cubo-piezas">
+                                            <div class="cara frente">
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                            </div>
+            
+                                            <div class="cara atras">
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                            </div>
+                                            <div class="cara izquierda">
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                            </div>
+                                            <div class="cara derecha">
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                            </div>
+                                            <div class="cara arriba">
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                            </div>
+                                            <div class="cara abajo">
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                                <div style="background: #ffeb3b;" class="cube"></div>
+                                                <div style="background: #4caf50;" class="cube"></div>
+                                                <div style="background: #2196f3;" class="cube"></div>
+                                                <div style="background: #ffffff;" class="cube"></div>
+                                                <div style="background: #ff3d00;" class="cube"></div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tarjeta">
+                                        <a class="contenedor-social social-instagram" href="https://www.instagram.com/miguelangelabou/" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 16 16" class="svg-social instagram-svg" fill="currentColor">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                            </svg>
+                                        </a>
+                
+                                        <a class="contenedor-social social-X" href="https://twitter.com/__Zead__" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 512 512" class="svg-social X-svg" fill="currentColor">
+                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                            </svg>
+                                        </a>
+                
+                                        <a class="contenedor-social social-linkedin" href="https://www.linkedin.com/in/miguelangel-zead-abou-moreno-9333b0325" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 448 512" class="svg-social linkedin-svg" fill="currentColor">
+                                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                            </svg>
+                                        </a>
+                
+                                        <a class="contenedor-social social-discord" href="https://discord.gg/dtxTWehc9G" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 48 48" class="svg-social discord-svg" fill="currentColor">
+                                            <path d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path>
+                                            </svg>
+                                        </a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desarrollador">
+                            <div class="tarjeta-desarrollador-fondo">
+                                <div class="tarjeta-desarrollador-gabriel">
+                                <div class="avatar">
+                                    <img src="../imgs/Gabriel.jpeg" alt="Perfil de Gabriel">
+                                </div>
+                                <div class="nombre-desarrollador">Gabriel Herrera</div>
+
+                                <div class="info-desarrollador">
+                                    <div class="subtitulo-desarrollador">FrontEnd - Designer</div>
+                                    <div class="subtitulo-desarrollador">Ing. Sistemas</div>
+                                    <div class="subtitulo-desarrollador">Semestre 3</div>
+                                    <div class="camion">
+                                        <div class="camionWrapper">
+                                          <div class="camionCuerpo">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 198 93" class="trucksvg">
+                                              <path stroke-width="3" stroke="#282828" fill="#F83D3D" d="M135 22.5H177.264C178.295 22.5 179.22 23.133 179.594 24.0939L192.33 56.8443C192.442 57.1332 192.5 57.4404 192.5 57.7504V89C192.5 90.3807 191.381 91.5 190 91.5H135C133.619 91.5 132.5 90.3807 132.5 89V25C132.5 23.6193 133.619 22.5 135 22.5Z"></path>
+                                              <path stroke-width="3" stroke="#282828" fill="#7D7C7C" d="M146 33.5H181.741C182.779 33.5 183.709 34.1415 184.078 35.112L190.538 52.112C191.16 53.748 189.951 55.5 188.201 55.5H146C144.619 55.5 143.5 54.3807 143.5 53V36C143.5 34.6193 144.619 33.5 146 33.5Z"></path>
+                                              <path stroke-width="2" stroke="#282828" fill="#282828" d="M150 65C150 65.39 149.763 65.8656 149.127 66.2893C148.499 66.7083 147.573 67 146.5 67C145.427 67 144.501 66.7083 143.873 66.2893C143.237 65.8656 143 65.39 143 65C143 64.61 143.237 64.1344 143.873 63.7107C144.501 63.2917 145.427 63 146.5 63C147.573 63 148.499 63.2917 149.127 63.7107C149.763 64.1344 150 64.61 150 65Z"></path>
+                                              <rect stroke-width="2" stroke="#282828" fill="#FFFCAB" rx="1" height="7" width="5" y="63" x="187"></rect>
+                                              <rect stroke-width="2" stroke="#282828" fill="#282828" rx="1" height="11" width="4" y="81" x="193" ></rect>
+                                              <rect stroke-width="3" stroke="#282828" fill="#DFDFDF" rx="2.5" height="90" width="121" y="1.5" x="6.5" ></rect>
+                                              <rect stroke-width="2" stroke="#282828" fill="#DFDFDF" rx="2" height="4" width="6" y="84" x="1"></rect>
+                                            </svg>
+                                          </div>
+                                          <div class="camionRuedas">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="tiresvg"><circle stroke-width="3" stroke="#282828" fill="#282828" r="13.5" cy="15" cx="15"></circle><circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="tiresvg"><circle stroke-width="3" stroke="#282828" fill="#282828" r="13.5" cy="15" cx="15"></circle><circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle></svg>
+                                          </div>
+                                          <div class="carretera"></div>
+                                          <svg xml:space="preserve" viewBox="0 0 453.459 453.459" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Capa_1" version="1.1" fill="#000000" class="lampPost"><path d="M252.882,0c-37.781,0-68.686,29.953-70.245,67.358h-6.917v8.954c-26.109,2.163-45.463,10.011-45.463,19.366h9.993c-1.65,5.146-2.507,10.54-2.507,16.017c0,28.956,23.558,52.514,52.514,52.514c28.956,0,52.514-23.558,52.514-52.514c0-5.478-0.856-10.872-2.506-16.017h9.992c0-9.354-19.352-17.204-45.463-19.366v-8.954h-6.149C200.189,38.779,223.924,16,252.882,16c29.952,0,54.32,24.368,54.32,54.32c0,28.774-11.078,37.009-25.105,47.437c-17.444,12.968-37.216,27.667-37.216,78.884v113.914h-0.797c-5.068,0-9.174,4.108-9.174,9.177c0,2.844,1.293,5.383,3.321,7.066c-3.432,27.933-26.851,95.744-8.226,115.459v11.202h45.75v-11.202c18.625-19.715-4.794-87.527-8.227-115.459c2.029-1.683,3.322-4.223,3.322-7.066c0-5.068-4.107-9.177-9.176-9.177h-0.795V196.641c0-43.174,14.942-54.283,30.762-66.043c14.793-10.997,31.559-23.461,31.559-60.277C323.202,31.545,291.656,0,252.882,0zM232.77,111.694c0,23.442-19.071,42.514-42.514,42.514c-23.442,0-42.514-19.072-42.514-42.514c0-5.531,1.078-10.957,3.141-16.017h78.747C231.693,100.736,232.77,106.162,232.77,111.694z"></path></svg>
+                                         </div>
+                                        </div>
+                                    </div>
+                
+                                      <div class="tarjeta">
+                                        <a class="contenedor-social social-instagram" href="#" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 16 16" class="svg-social instagram-svg" fill="currentColor">
+                                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                            </svg>
+                                        </a>
+              
+                                        <a class="contenedor-social social-X" href="#" target="_blank" rel="noopener noreferrer">
+                                            <svg viewBox="0 0 512 512" class="svg-social X-svg" fill="currentColor">
+                                                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                            </svg>
+                                        </a>
+                
+                                        <a class="contenedor-social social-linkedin" href="#" target="_blank" rel="noopener noreferrer">
+                                          <svg viewBox="0 0 448 512" class="svg-social linkedin-svg" fill="currentColor">
+                                                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                          </svg>
+                                        </a>
+                
+                                        <a class="contenedor-social social-discord" href="#" target="_blank" rel="noopener noreferrer">
+                                          <svg viewBox="0 0 48 48" class="svg-social discord-svg" fill="currentColor">
+                                                <path d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path>
+                                          </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+             </main>
+                        
+            <!-- FOOTER -->
+            <div id="footer"></div>
+                <script>
+                    fetch('../Basics/footer.html')
+                        .then(response => response.text())
+                        .then(data => document.getElementById('footer').innerHTML = data);
+                </script>
+                <!-- FOOTER -->
+            </div>
+        </div>
+    </body>
+</html>

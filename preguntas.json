@@ -1,0 +1,2656 @@
+{
+  "trivia": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es el árbol nacional de Venezuela?",
+      "respuesta_correcta": "Araguaney",
+      "respuestas_incorrectas": [
+        "Ceiba",
+        "Palma",
+        "Cacao"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "El árbol nacional de Venezuela es el araguaney (Handroanthus chrysanthus), también conocido como guayacán amarillo. Fue declarado como tal el 29 de mayo de 1948. Este árbol es famoso por sus flores de un color amarillo intenso, que florecen durante la estación seca, generalmente entre febrero y abril12. El araguaney crece en las sabanas y los llanos venezolanos, adaptándose a climas de invierno seco1. Su nombre proviene de los indios caribes, quienes lo llamaban Aravanei"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es la ciudad más poblada de Venezuela?",
+      "respuesta_correcta": "Caracas",
+      "respuestas_incorrectas": [
+        "Maracaibo",
+        "Valencia",
+        "Barquisimeto"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La ciudad más poblada de Venezuela es Caracas, con una población estimada de alrededor de 4.946.955 habitantes en su área metropolitana. Esta área incluye el Distrito Capital y partes del estado Miranda, abarcando municipios como Libertador, Baruta, El Hatillo, Sucre y Chacao.Caracas no solo es la capital del país, sino también el centro político, económico y cultural de Venezuela."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cuál de los siguientes es un género musical venezolano?",
+      "respuesta_correcta": "Joropo",
+      "respuestas_incorrectas": [
+        "Salsa",
+        "Merengue",
+        "Dembow"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "Venezuela tiene una rica tradición musical con varios géneros autóctonos. Algunos de los géneros musicales venezolanos más conocidos incluyen:Joropo: Es el género musical y baile nacional de Venezuela, caracterizado por el uso del arpa, el cuatro y las maracas. Gaita zuliana: Originaria del estado Zulia, es especialmente popular durante la temporada navideña. Música llanera: También conocida como música de los llanos, es típica de las regiones llaneras y utiliza instrumentos como el cuatro, las maracas y el arpa.Tambor: Este género es típico de las regiones costeras y se caracteriza por el uso de tambores y otros instrumentos de percusión."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál es la principal fuente de ingresos de Venezuela?",
+      "respuesta_correcta": "Petróleo",
+      "respuestas_incorrectas": [
+        "Turismo",
+        "Agricultura",
+        "Minería"
+      ],
+      "categoria": "Economía",
+      "dificultad": "fácil",
+      "consultarIA": "La principal fuente de ingresos de Venezuela es la producción y exportación de petróleo. Este sector representa aproximadamente el 95% de las exportaciones del país. La industria petrolera ha sido fundamental para la economía venezolana desde principios del siglo XX y sigue siendo el pilar económico más importante"
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cuál es el plato nacional de Venezuela?",
+      "respuesta_correcta": "Pabellón Criollo",
+      "respuestas_incorrectas": [
+        "Arepas",
+        "Hallacas",
+        "Asado Negro"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El plato nacional de Venezuela es el pabellón criollo. Este plato tradicional está compuesto por arroz blanco, carne mechada (desmenuzada), caraotas (frijoles) negras y tajadas de plátano maduro frito. La combinación de estos ingredientes representa una mezcla de sabores salados y dulces que es muy característica de la gastronomía venezolana.El pabellón criollo es considerado un símbolo de la diversidad cultural del país, reflejando influencias indígenas, africanas y europeas."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál es la flor nacional de Venezuela?",
+      "respuesta_correcta": "Orquídea",
+      "respuestas_incorrectas": [
+        "Rosa",
+        "Girasol",
+        "Lirio"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "La flor nacional de Venezuela es la orquídea Cattleya mossiae, conocida popularmente como flor de mayo. Esta orquídea fue declarada como flor nacional el 23 de mayo de 1951. Es apreciada por su belleza y variedad de colores, aunque la más representativa en Venezuela es la de color morado.La flor de mayo es utilizada tradicionalmente para adornar la Cruz de Mayo durante las festividades religiosas que llevan el mismo nombre. Además, es un símbolo de la feminidad y la belleza en la cultura venezolana."  
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Cuál es el lema oficial de Venezuela?",
+      "respuesta_correcta": "Independencia y Patria",
+      "respuestas_incorrectas": [
+        "Libertad y Justicia",
+        "Unión y Progreso",
+        "Paz y Amor"
+      ],
+      "categoria": "Historia",
+      "dificultad": "medio",
+      "consultarIA": "El lema oficial de Venezuela es (Independencia y Federación). Este lema se encuentra en la parte superior del escudo nacional, simbolizando los valores fundamentales de la nación: la independencia lograda en 1810 y la federación establecida en 1859."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Quién fue el libertador de Venezuela?",
+      "respuesta_correcta": "Simón Bolívar",
+      "respuestas_incorrectas": [
+        "José Antonio Páez",
+        "Antonio José de Sucre",
+        "Francisco de Miranda"
+      ],
+      "categoria": "Historia",
+      "dificultad": "medio",
+      "consultarIA": "El libertador de Venezuela es Simón Bolívar. Nacido el 24 de julio de 1783 en Caracas, Bolívar fue un líder militar y político fundamental en la lucha por la independencia de varios países sudamericanos, incluyendo Venezuela, Colombia, Ecuador, Perú y Bolivia. Su visión y liderazgo fueron cruciales para la liberación de estos territorios del dominio español.Simón Bolívar es figura emblemática en la historia de América Latina y es conocido como El Libertador por su papel en la emancipación de gran parte del continente."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Qué río es considerado el más largo de Venezuela?",
+      "respuesta_correcta": "Río Orinoco",
+      "respuestas_incorrectas": [
+        "Río Caroní",
+        "Río Apure",
+        "Río Zulia"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El río más largo de Venezuela es el río Orinoco. Este río tiene una longitud de aproximadamente 2.140 kilómetros. Nace en el cerro Delgado Chalbaud, en el estado Amazonas, y fluye hacia el norte y el este, desembocando en el océano Atlántico a través de un extenso delta.El Orinoco es uno de los ríos más importantes de América del Sur, no solo por su longitud, sino también por su caudal y la biodiversidad que alberga en sus aguas y alrededores."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué famoso parque nacional de Venezuela es conocido por sus tepuyes?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional Los Roques"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "medio",
+      "consultarIA": "El famoso parque nacional de Venezuela conocido por sus tepuyes es el Parque Nacional Canaima. Este parque, ubicado en el estado Bolívar, es uno de los más grandes del país y del mundo, con una extensión de aproximadamente 30.000 km². Los tepuyes son formaciones geológicas únicas, con cimas planas y paredes verticales, que se encuentran principalmente en la Gran Sabana, dentro del Parque Nacional Canaima. El tepuy más famoso es el Monte Roraima, que es uno de los tepuyes más altos y conocidos. Canaima también es hogar de la cascada más alta del mundo, el Salto Ángel, que cae desde el Auyantepui. Este parque es un destino turístico muy popular debido a su impresionante belleza natural y su biodiversidad."
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué moneda se utiliza en Venezuela?",
+      "respuesta_correcta": "Bolívar",
+      "respuestas_incorrectas": [
+        "Peso",
+        "Dólar",
+        "Euro"
+      ],
+      "categoria": "Economía",
+      "dificultad": "fácil",
+      "consultarIA": "La moneda oficial de Venezuela es el bolívar (símbolo: Bs.; código ISO 4217: VED). Desde el 1 de octubre de 2021, la versión actual de la moneda se llama bolívar digital. Esta denominación se introdujo como parte de una serie de reconversiones monetarias para simplificar las transacciones y combatir la hiperinflación."
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Cuál es el nombre de la famosa catarata ubicada en el Parque Nacional Canaima?",
+      "respuesta_correcta": "Salto Ángel",
+      "respuestas_incorrectas": [
+        "Catarata de los Ángeles",
+        "Catarata de La Llovizna",
+        "Catarata del Guácharo"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "medio",
+      "consultarIA": "La famosa catarata ubicada en el Parque Nacional Canaima es el Salto Ángel. Con una altura de 979 metros, es la cascada más alta del mundo. El Salto Ángel se origina en el Auyantepui, uno de los tepuyes más conocidos del parque. Esta impresionante caída de agua es uno de los principales atractivos turísticos de Venezuela y ha sido declarada Patrimonio de la Humanidad por la UNESCO."
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué famoso artista plástico venezolano es conocido por sus obras abstractas?",
+      "respuesta_correcta": "Carlos Cruz-Diez",
+      "respuestas_incorrectas": [
+        "Oswaldo Guayasamín",
+        "Rufino Tamayo",
+        "Fernando Botero"
+      ],
+      "categoria": "Arte",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los artistas plásticos venezolanos más famosos por sus obras abstractas es Carlos Cruz-Diez. Nacido en Caracas en 1923, Cruz-Diez es reconocido internacionalmente por su trabajo en el arte cinético y el arte óptico. Sus obras exploran la percepción del color y el movimiento, creando efectos visuales dinámicos y cambiantes.Cruz-Diez desarrolló varias teorías sobre el color, incluyendo el Color Aditivo y la Inducción Cromática, que han influido significativamente en el arte contemporáneo. Sus instalaciones y obras se encuentran en importantes museos y colecciones privadas alrededor del mundo."
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Cuál es el nombre del sistema de misiones sociales implementado en Venezuela?",
+      "respuesta_correcta": "Misiones Bolivarianas",
+      "respuestas_incorrectas": [
+        "Misión Vivienda",
+        "Misión Alimentación",
+        "Misión Cultura"
+      ],
+      "categoria": "Política",
+      "dificultad": "medio",
+      "consultarIA": "El sistema de misiones sociales implementado en Venezuela se llama Sistema Nacional de Misiones, Grandes Misiones y Micro-Misiones Hugo Chávez. Este sistema agrupa una serie de programas sociales desarrollados inicialmente durante el gobierno de Hugo Chávez desde el año 2003 y que continúan vigentes en la actualidad12.Las misiones bolivarianas incluyen programas destinados a combatir la pobreza, mejorar la educación, proporcionar atención médica gratuita, y ofrecer acceso a viviendas y alimentos subsidiados12. Algunas de las misiones más destacadas son la Misión Barrio Adentro (salud), Misión Robinson (alfabetización), Misión Vivienda (vivienda gratuita) y Misión Mercal (alimentos a precios subsidiados)."
+    },
+    {
+      "id": 15,
+      "pregunta": "¿En qué año se proclamó la independencia de Venezuela?",
+      "respuesta_correcta": "1811",
+      "respuestas_incorrectas": [
+        "1821",
+        "1806",
+        "1830"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "La independencia de Venezuela se proclamó el 5 de julio de 1811. Este día, el Congreso de Venezuela declaró formalmente la independencia de España, marcando el inicio de un largo proceso de lucha que culminaría con la consolidación de la independencia en 1821, tras la Batalla de Carabobo."
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Cuál es el principal producto de exportación de Venezuela?",
+      "respuesta_correcta": "Petróleo",
+      "respuestas_incorrectas": [
+        "Café",
+        "Cacao",
+        "Minerales"
+      ],
+      "categoria": "Economía",
+      "dificultad": "fácil",
+      "consultarIA": "El principal producto de exportación de Venezuela es el petróleo crudo. Este recurso ha sido la base de la economía venezolana durante décadas y sigue siendo la exportación más significativa del país. En 2023, el petróleo crudo representó aproximadamente el 54.4% del total de las exportaciones venezolanas."
+      
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué famoso béisbolista venezolano ha sido considerado uno de los mejores de la MLB?",
+      "respuesta_correcta": "Miguel Cabrera",
+      "respuestas_incorrectas": [
+        "José Altuve",
+        "Venezuelan Elvis",
+        "Bobby Abreu"
+      ],
+      "categoria": "Deportes",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los béisbolistas venezolanos más famosos y considerados entre los mejores de la MLB es Miguel Cabrera. Nacido el 18 de abril de 1983 en Maracay, Cabrera ha tenido una destacada carrera en las Grandes Ligas, principalmente con los Detroit Tigers. Miguel Cabrera es conocido por sus habilidades excepcionales como bateador. Ha ganado múltiples premios, incluyendo dos MVP de la Liga Americana y la Triple Corona de bateo en 2012, un logro que no se había alcanzado en 45 años. Además, ha sido seleccionado para el Juego de Estrellas en varias ocasiones y ha ganado múltiples títulos de bateo."
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en Venezuela?",
+      "respuesta_correcta": "Festival Internacional de Jazz de Caracas",
+      "respuestas_incorrectas": [
+        "Festival de la Salsa",
+        "Festival de la Gaita",
+        "Festival de Música Llanera"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los festivales de música más famosos que se celebra en Venezuela es el Festival de la Orquídea. Este evento se lleva a cabo anualmente en la ciudad de Maracaibo, estado Zulia, y es organizado por el canal de televisión Venevisión. El festival es conocido por reunir a destacados artistas nacionales e internacionales, ofreciendo una plataforma para la música y el entretenimiento. El Festival de la Orquídea es muy popular y atrae a miles de espectadores cada año, convirtiéndose en una celebración importante dentro del calendario cultural venezolano."
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Qué ave es el símbolo nacional de Venezuela?",
+      "respuesta_correcta": "El turpial",
+      "respuestas_incorrectas": [
+        "El cóndor",
+        "El águila",
+        "El loro"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "El ave símbolo nacional de Venezuela es el turpial (Icterus icterus). Este hermoso pájaro se distingue por su plumaje de colores vibrantes: negro en la cabeza y las alas, y amarillo en el resto del cuerpo. Fue declarado ave nacional el 23 de mayo de 1958. El turpial es conocido por su melodioso canto y su presencia en casi todo el territorio venezolano. Es un símbolo de la belleza y la diversidad de la fauna venezolana."
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Cuál es la lengua indígena más hablada en Venezuela?",
+      "respuesta_correcta": "Wayuu",
+      "respuestas_incorrectas": [
+        "Yanomami",
+        "Pemon",
+        "Guaraní"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "La lengua indígena más hablada en Venezuela es el wayuu. Esta lengua es hablada por el pueblo wayuu, que habita principalmente en la región de la Guajira, en el estado Zulia. El wayuu es una de las lenguas indígenas con mayor número de hablantes en el país y es reconocida oficialmente como una lengua nacional."
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Cuál es la capital del estado Zulia?",
+      "respuesta_correcta": "Maracaibo",
+      "respuestas_incorrectas": [
+        "Cabimas",
+        "Valencia",
+        "Barquisimeto"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La capital del estado Zulia es Maracaibo. Maracaibo es la segunda ciudad más grande de Venezuela y es conocida por su importancia económica, especialmente en la industria petrolera. Además, es famosa por su cultura vibrante y su música, incluyendo la gaita zuliana, que es muy popular durante la temporada navideña."
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Quién fue el primer presidente de Venezuela?",
+      "respuesta_correcta": "Cristóbal Mendoza",
+      "respuestas_incorrectas": [
+        "Simón Bolívar",
+        "José Antonio Páez",
+        "Antonio Guzmán Blanco"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "El primer presidente de Venezuela fue Cristóbal Mendoza. Asumió el cargo el 5 de marzo de 1811 como parte de un triunvirato ejecutivo electo por el Supremo Congreso de Venezuela. Mendoza desempeñó un papel crucial en los primeros años de la independencia venezolana, enfrentando numerosos desafíos, incluyendo la resistencia de las fuerzas realistas españolas y los conflictos internos entre facciones políticas."
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Qué famosa bebida venezolana se elabora a base de arroz?",
+      "respuesta_correcta": "Chicha",
+      "respuestas_incorrectas": [
+        "Guarapita",
+        "Cocada",
+        "Aguapanela"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa bebida venezolana elaborada a base de arroz es la chicha. La chicha venezolana es una bebida dulce y espesa, hecha principalmente de arroz cocido, leche, azúcar y a menudo se aromatiza con vainilla y canela. Es muy popular en todo el país y se consume especialmente como una bebida refrescante.La chicha se sirve generalmente fría y puede encontrarse en muchas calles y mercados de Venezuela, a menudo adornada con leche condensada y canela en polvo."
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Qué famoso lugar en Venezuela es conocido por sus playas y parques nacionales?",
+      "respuesta_correcta": "Los Roques",
+      "respuestas_incorrectas": [
+        "Margarita",
+        "Cayo de Agua",
+        "Parque Nacional Morrocoy"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "medio",
+      "consultarIA": "Un famoso lugar en Venezuela conocido por sus playas y parques nacionales es Margarita. La Isla de Margarita, ubicada en el mar Caribe, es parte del estado Nueva Esparta y es uno de los destinos turísticos más populares del país. Margarita es famosa por sus hermosas playas, como Playa El Agua y Playa Parguito, y por sus parques nacionales, como el Parque Nacional Laguna de La Restinga, que ofrece manglares y canales navegables. Además, la isla cuenta con el Parque Nacional Cerro El Copey, que ofrece senderos y vistas panorámicas."
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué país limita al oeste con Venezuela?",
+      "respuesta_correcta": "Colombia",
+      "respuestas_incorrectas": [
+        "Brasil",
+        "Guyana",
+        "Perú"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El país que limita al oeste con Venezuela es Colombia. Esta frontera se extiende por aproximadamente 2.050 kilómetros y está marcada por la Cordillera de los Andes, que atraviesa ambos países."
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música llanera que se celebra en Venezuela?",
+      "respuesta_correcta": "Festival de la Leyenda Vallenata",
+      "respuestas_incorrectas": [
+        "Festival de la Gaita",
+        "Festival Internacional de Jazz",
+        "Festival de la Salsa"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los festivales de música llanera más famosos que se celebra en Venezuela es el Festival Internacional de Música Llanera El Silbón. Este evento se lleva a cabo en el estado Portuguesa y reúne a destacados intérpretes y compositores de música llanera de Venezuela y otros países. El festival es una celebración de la cultura llanera, con competencias de canto, baile y ejecución de instrumentos típicos como el arpa, el cuatro y las maracas."
+    },
+    {
+      "id": 27,
+      "pregunta": "¿Qué es el 'pabellón criollo'?",
+      "respuesta_correcta": "Un plato típico venezolano",
+      "respuestas_incorrectas": [
+        "Una danza tradicional",
+        "Un tipo de sombrero",
+        "Una bebida alcohólica"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El pabellón criollo es el plato nacional de Venezuela. Este plato tradicional está compuesto por varios ingredientes que representan una mezcla de sabores y culturas. Los componentes principales del pabellón criollo son: Arroz blanco: Sirve como base del plato. Carne mechada: Carne de res desmenuzada y guisada con cebolla, pimientos, ajo y otros condimentos. Caraotas negras: Frijoles negros cocidos y sazonados. Tajadas de plátano maduro frito: Rodajas de plátano maduro fritas, que aportan un toque dulce al plato. El pabellón criollo es un reflejo de la diversidad cultural de Venezuela, combinando influencias indígenas, africanas y europeas. Es un plato muy apreciado y se encuentra en la mayoría de los hogares y restaurantes del país."
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Cuál es el nombre del famoso poeta y escritor que ganó el Premio Nobel de Literatura en 1945?",
+      "respuesta_correcta": "Gabriela Mistral",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "Rómulo Gallegos",
+        "Salvador Garmendia"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "El famoso poeta y escritor que ganó el Premio Nobel de Literatura en 1945 fue Gabriela Mistral. Gabriela Mistral, cuyo nombre real era Lucila Godoy Alcayaga, fue una destacada poeta chilena y la primera persona de América Latina en recibir este prestigioso galardón. Su obra es conocida por su profundidad emocional y su enfoque en temas como el amor, la maternidad y la naturaleza."
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué animal es conocido como el 'rey de la selva' en Venezuela?",
+      "respuesta_correcta": "El jaguar",
+      "respuestas_incorrectas": [
+        "El puma",
+        "El león",
+        "El caimán"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "medio",
+      "consultarIA": "En Venezuela, el animal conocido como el rey de la selva es el jaguar (Panthera onca). Este majestuoso felino es el tercer animal más grande del mundo, después del tigre y el león. El jaguar es conocido por su fuerza, agilidad y su distintivo pelaje amarillo con manchas negras1. El jaguar es un símbolo importante en la cultura indígena venezolana y es muy valorado por su belleza y poder. Sin embargo, su población ha disminuido debido a la caza furtiva y la pérdida de su hábitat natural."
+    },
+    {
+      "id": 30,
+      "pregunta": "¿Qué famoso sitio arqueológico se encuentra en Venezuela?",
+      "respuesta_correcta": "El Puy",
+      "respuestas_incorrectas": [
+        "Las Líneas de Nazca",
+        "El Parque Arqueológico de Tierradentro",
+        "El Parque Nacional Canaima"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "Uno de los sitios arqueológicos más famosos de Venezuela es Parque Arqueológico de Piedra Pintada. Este parque se encuentra en el estado de Yaracuy y es conocido por sus petroglifos, que son grabados en piedra realizados por las culturas indígenas precolombinas. Estos petroglifos representan figuras humanas, animales y símbolos abstractos, y son una ventana fascinante al pasado de la región."
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Cuál es el nombre del famoso sistema montañoso que se encuentra en Venezuela?",
+      "respuesta_correcta": "Los Andes",
+      "respuestas_incorrectas": [
+        "La Cordillera de los Himalayas",
+        "La Cordillera de los Apalaches",
+        "La Cordillera de los Pirineos"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA":"El sistema montañoso más famoso de Venezuela es la Cordillera de los Andes. Esta cordillera se extiende a lo largo del oeste del país y alberga las cumbres más altas de Venezuela, incluyendo el Pico Bolívar, que es el punto más alto del país. La Cordillera de los Andes en Venezuela es una prolongación de los Andes colombianos y se divide en dos cadenas principales: la Sierra de Perijá y la Cordillera de Mérida."
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Qué famoso escritor venezolano escribió 'Doña Bárbara'?",
+      "respuesta_correcta": "Rómulo Gallegos",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "Gabriel García Márquez",
+        "Arturo Uslar Pietri"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso escritor venezolano que escribió 'Doña Bárbara' es Rómulo Gallegos. Publicada en 1929, esta novela es una de las obras más importantes de la literatura venezolana y latinoamericana. La historia aborda temas como la lucha entre la civilización y la barbarie, y está ambientada en los llanos venezolanos."
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Cuál es la principal religión en Venezuela?",
+      "respuesta_correcta": "Catolicismo",
+      "respuestas_incorrectas": [
+        "Protestantismo",
+        "Budaísmo",
+        "Islam"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "La principal religión en Venezuela es el catolicismo. Aproximadamente el 63.6% de la población se identifica como católica. Además, el protestantismo ha ganado relevancia en las últimas décadas, convirtiéndose en la segunda comunidad cristiana más numerosa del país."
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Qué famoso evento deportivo se celebra anualmente en Venezuela?",
+      "respuesta_correcta": "Maratón de Caracas",
+      "respuestas_incorrectas": [
+        "Vuelta al Táchira",
+        "Tour de Francia",
+        "Maratón de Nueva York"
+      ],
+      "categoria": "Deportes",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los eventos deportivos más importantes que se celebra anualmente en Venezuela son los Juegos Deportivos Nacionales. Este evento reúne a atletas de todo el país para competir en diversas disciplinas deportivas. Los Juegos Deportivos Nacionales son una plataforma crucial para el desarrollo del deporte en Venezuela y han sido un trampolín para muchos atletas destacados."
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Qué tipo de clima predomina en la región de los Llanos de Venezuela?",
+      "respuesta_correcta": "Tropical",
+      "respuestas_incorrectas": [
+        "Árido",
+        "Frío",
+        "Templado"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La región de los Llanos de Venezuela se caracteriza por un clima tropical de sabana. Este tipo de clima presenta dos estaciones bien definidas: una temporada de lluvias, que generalmente ocurre entre mayo y noviembre, y una temporada seca, que va de diciembre a abril. Durante la temporada de lluvias, los Llanos pueden experimentar inundaciones debido a la gran cantidad de precipitación, mientras que en la temporada seca, el clima es cálido y seco."
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué famoso monumento se encuentra en la ciudad de Caracas?",
+      "respuesta_correcta": "El Ávila",
+      "respuestas_incorrectas": [
+        "La Torre Eiffel",
+        "El Cristo Redentor",
+        "La Estatua de la Libertad"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "Un famoso monumento en Caracas relacionado con el Ávila es el Monumento a la Paz, también conocido como la Cruz del Ávila. Este monumento es una gran cruz iluminada que se encuentra en el Parque Nacional El Ávila (también conocido como Waraira Repano). La Cruz del Ávila es visible desde gran parte de la ciudad y se ilumina especialmente durante la temporada navideña, convirtiéndose en un símbolo icónico de Caracas."
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué es la 'arepa'?",
+      "respuesta_correcta": "Un alimento típico venezolano",
+      "respuestas_incorrectas": [
+        "Una danza tradicional",
+        "Un tipo de sombrero",
+        "Una bebida"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La arepa es un alimento tradicional de Venezuela y Colombia, hecho a base de masa de maíz. Es una especie de pan plano y redondo que se puede asar, freír o cocinar al horno. Las arepas se pueden rellenar con una variedad de ingredientes como queso, carne, pollo, aguacate, frijoles, y más. Son muy versátiles y se consumen en cualquier momento del día, ya sea en el desayuno, almuerzo o cena."
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Qué famoso científico venezolano es conocido por sus contribuciones en el campo de la biología?",
+      "respuesta_correcta": "Humberto Fernández Morán",
+      "respuestas_incorrectas": [
+        "Luis Herrera",
+        "Andrés Bello",
+        "Rafael Rangel"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "Humberto Fernández Morán fue un destacado científico venezolano conocido por sus importantes contribuciones en el campo de la biología y la medicina. Es especialmente reconocido por inventar el bisturí de diamante, una herramienta crucial para la microcirugía y la investigación biológica. Además, Fernández Morán realizó avances significativos en la microscopía electrónica, mejorando la resolución y la calidad de las imágenes obtenidas con esta técnica."
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué es la 'Gaita'?",
+      "respuesta_correcta": "Un género musical típico de la región zuliana",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Una comida típica",
+        "Un festival de música"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "La Gaita es un género musical tradicional de Venezuela, originario del estado Zulia. Es especialmente popular durante la temporada navideña. La gaita se caracteriza por su ritmo alegre y festivo, y suele interpretarse con instrumentos como el cuatro, la tambora, el furro, las maracas y el charrasca. Las letras de las gaitas suelen abordar temas de la vida cotidiana, la cultura zuliana y, a menudo, tienen un tono humorístico o crítico."
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Cuál es el principal destino turístico de Venezuela conocido por su biodiversidad?",
+      "respuesta_correcta": "El Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Los Roques",
+        "Margarita",
+        "Parque Nacional Morrocoy"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "medio",
+      "consultarIA": "El principal destino turístico de Venezuela conocido por su biodiversidad es el Parque Nacional Canaima. Este parque, ubicado en el estado Bolívar, es famoso por sus impresionantes paisajes, que incluyen la Gran Sabana, los tepuyes (mesetas de roca), y el Salto Ángel, la cascada más alta del mundo. Canaima es hogar de una gran variedad de flora y fauna, muchas de las cuales son endémicas de la región."
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Cuál es el nombre del lago más grande de Venezuela?",
+      "respuesta_correcta": "Lago de Maracaibo",
+      "respuestas_incorrectas": [
+        "Lago Titicaca",
+        "Lago de Valencia",
+        "Lago de Cocibolca"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El lago más grande de Venezuela es el Lago de Maracaibo. Este lago se encuentra en el estado Zulia y es uno de los cuerpos de agua más grandes de América del Sur. El Lago de Maracaibo es conocido por su importancia económica debido a la producción de petróleo en la región y también por el fenómeno natural del Relámpago del Catatumbo, una serie de tormentas eléctricas que ocurren regularmente en la zona."
+    },
+    {
+      "id": 42,
+      "pregunta": "¿Qué famoso líder revolucionario venezolano fue conocido como 'El Libertador'?",
+      "respuesta_correcta": "Simón Bolívar",
+      "respuestas_incorrectas": [
+        "Hugo Chávez",
+        "José Antonio Páez",
+        "Antonio José de Sucre"
+      ],
+      "categoria": "Historia",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso líder revolucionario venezolano conocido como 'El Libertador' es Simón Bolívar. Bolívar fue una figura clave en la lucha por la independencia de varios países sudamericanos, incluyendo Venezuela, Colombia, Ecuador, Perú y Bolivia. Su liderazgo y visión fueron fundamentales para liberar gran parte de América del Sur del dominio español."
+    },
+    {
+      "id": 43,
+      "pregunta": "¿Qué es la 'tizana'?",
+      "respuesta_correcta": "Una bebida típica venezolana a base de frutas",
+      "respuestas_incorrectas": [
+        "Un tipo de pan",
+        "Un plato típico",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "La tizana es una bebida tradicional venezolana, refrescante y muy popular, especialmente en climas cálidos. Se elabora a base de una mezcla de frutas frescas cortadas en trozos pequeños, como piña, melón, sandía, fresas, uvas, y otras frutas de temporada. Estas frutas se combinan con jugo de naranja o alguna otra bebida cítrica, y a menudo se le añade un toque de granadina para darle un color rojo vibrante y un sabor dulce."
+    },
+    {
+      "id": 44,
+      "pregunta": "¿Cuál es el nombre del famoso festival de cine que se celebra en Mérida?",
+      "respuesta_correcta": "Festival del cine Venezolano",
+      "respuestas_incorrectas": [
+        "Festival de Cine de Caracas",
+        "Festival de Cine de Maracaibo",
+        "Festival de Cine de Valencia"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso festival de cine que se celebra en Mérida, Venezuela, es el Festival del Cine Venezolano. Este evento anual destaca lo mejor del cine nacional, ofreciendo una plataforma para que cineastas venezolanos presenten sus trabajos y compitan en diversas categorías. El festival es una celebración importante de la cultura cinematográfica en el país y atrae a numerosos profesionales y aficionados del cine."
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué fruta tropical es conocida como la 'fruta de oro' en Venezuela?",
+      "respuesta_correcta": "Mango",
+      "respuestas_incorrectas": [
+        "Papaya",
+        "Piña",
+        "Coco"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "En Venezuela, la mango es a menudo referida como la fruta de oro. Esta fruta tropical es muy apreciada por su sabor dulce y jugoso, y es una de las frutas más populares en el país. Los mangos se consumen frescos, en jugos, postres y diversas preparaciones culinarias."
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Qué famoso artista venezolano es conocido por su música de salsa?",
+      "respuesta_correcta": "Oscar D'León",
+      "respuestas_incorrectas": [
+        "Gustavo Dudamel",
+        "José Luis Rodríguez",
+        "Carla Angola"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "Un famoso artista venezolano conocido por su música de salsa es Oscar D'León. Apodado El Sonero del Mundo Oscar D'León ha tenido una carrera prolífica y es reconocido internacionalmente por sus contribuciones al género de la salsa. Algunas de sus canciones más populares incluyen Llorarás y Detalles."
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Cuál es el nombre del sistema de transporte masivo en Caracas?",
+      "respuesta_correcta": "Metro de Caracas",
+      "respuestas_incorrectas": [
+        "Transmilenio",
+        "Metro de Medellín",
+        "Subte de Buenos Aires"
+      ],
+      "categoria": "Transporte",
+      "dificultad": "fácil",
+      "consultarIA": "El sistema de transporte masivo en Caracas se llama Metro de Caracas. Este sistema incluye varias líneas de metro, así como servicios complementarios como el Metrobús, el Metrocable y el Cabletrén. El Metro de Caracas es fundamental para la movilidad en la ciudad y su área metropolitana."
+    },
+    {
+      "id": 48,
+      "pregunta": "¿Qué famoso compositor venezolano es conocido por su obra 'La danza de los espejos'?",
+      "respuesta_correcta": "Antonio Lauro",
+      "respuestas_incorrectas": [
+        "José Antonio Abreu",
+        "Gustavo Dudamel",
+        "Teresa Carreño"
+      ],
+      "categoria": "Música",
+      "dificultad": "difícil",
+      "consultarIA": "El famoso compositor venezolano conocido por su obra 'La danza de los espejos' es Antonio Lauro. Lauro es uno de los guitarristas y compositores más importantes de Venezuela, reconocido por sus contribuciones al repertorio de la guitarra clásica. Su música, que incluye valses venezolanos y otras piezas, ha sido interpretada por guitarristas de todo el mundo."
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música que celebra la cultura afrovenezolana?",
+      "respuesta_correcta": "Festival del tambor",
+      "respuestas_incorrectas": [
+        "Festival Internacional de Jazz",
+        "Festival de la Salsa",
+        "Festival de la Canción Venezolana"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso festival de música que celebra la cultura afrovenezolana en Venezuela es EXPO TAMBOR. Este evento se lleva a cabo en Caracas y es una gran celebración de la música y las tradiciones afrovenezolanas. EXPO TAMBOR incluye actividades como charlas, talleres, danzas, cantos y percusión, y rinde homenaje a figuras importantes de la cultura afrovenezolana."
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué es la 'música llanera'?",
+      "respuesta_correcta": "Un género musical típico de los Llanos de Venezuela",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Un festival de música",
+        "Una bebida"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "La música llanera es un género musical tradicional de los Llanos de Venezuela y Colombia. Se caracteriza por el uso de instrumentos como el arpa, el cuatro (una pequeña guitarra de cuatro cuerdas), las maracas y el bajo. Las canciones llaneras suelen narrar historias de la vida en el campo, el amor, y la naturaleza, y se interpretan en estilos como el joropo, el pasaje y el golpe."
+    },
+    {
+      "id": 51,
+      "pregunta": "¿Cuál es el nombre del famoso salto de agua ubicado en el Parque Nacional Canaima?",
+      "respuesta_correcta": "Salto Ángel",
+      "respuestas_incorrectas": [
+        "Salto de La Llovizna",
+        "Salto de La Chorrera",
+        "Salto de los Guácharos"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso salto de agua ubicado en el Parque Nacional Canaima es el Salto Ángel. Con una altura de 979 metros, es la cascada más alta del mundo. El Salto Ángel es una de las principales atracciones turísticas de Venezuela y un símbolo de la impresionante belleza natural del país."
+    },
+    {
+      "id": 52,
+      "pregunta": "¿Qué producto es considerado el principal rubro de exportación de Venezuela?",
+      "respuesta_correcta": "Petróleo",
+      "respuestas_incorrectas": [
+        "Café",
+        "Cacao",
+        "Minerales"
+      ],
+      "categoria": "Economía",
+      "dificultad": "fácil",
+      "consultarIA": "El principal rubro de exportación de Venezuela es el petróleo. Venezuela posee algunas de las mayores reservas de petróleo del mundo, y la economía del país ha dependido en gran medida de la exportación de este recurso. La industria petrolera ha sido fundamental para el desarrollo económico de Venezuela y sigue siendo el principal motor de sus exportaciones."
+    },
+    {
+      "id": 53,
+      "pregunta": "¿Qué famoso evento cultural se celebra en Venezuela durante el mes de diciembre?",
+      "respuesta_correcta": "Las parrandas",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Fiesta de la Gaita",
+        "Festival de la Salsa"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "En Venezuela, durante el mes de diciembre, se celebran las parrandas navideñas, una tradición muy arraigada en la cultura del país. Las parrandas son grupos de personas que van de casa en casa cantando aguinaldos y villancicos, llevando alegría y espíritu festivo a las comunidades. Estas celebraciones incluyen música en vivo, bailes y, a menudo, se acompañan de instrumentos tradicionales como el cuatro, las maracas y el tambor."
+    },
+    {
+      "id": 54,
+      "pregunta": "¿Qué instrumento musical es típico de la música llanera?",
+      "respuesta_correcta": "Cuatro",
+      "respuestas_incorrectas": [
+        "Guitarra",
+        "Piano",
+        "Bajo"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El cuatro es un instrumento musical típico y fundamental de la música llanera. Este instrumento es una pequeña guitarra de cuatro cuerdas, que se utiliza para acompañar los ritmos y melodías de los géneros musicales de los Llanos, como el joropo, el pasaje y el golpe. El cuatro es conocido por su sonido alegre y distintivo, y es esencial en la interpretación de la música tradicional venezolana."
+    },
+    {
+      "id": 55,
+      "pregunta": "¿Cuál es el nombre del famoso parque nacional que alberga el tepuy Roraima?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional Sierra Nevada"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El famoso parque nacional que alberga el tepuy Roraima es el Parque Nacional Canaima. Este parque, ubicado en el estado Bolívar, es conocido por sus impresionantes paisajes, que incluyen tepuyes (mesetas de roca), selvas, ríos y cascadas. El tepuy Roraima es uno de los más emblemáticos y es un destino popular para los aventureros y amantes de la naturaleza."
+    },
+    {
+      "id": 56,
+      "pregunta": "¿Qué famoso artista plástico venezolano es conocido por sus obras de arte abstracto?",
+      "respuesta_correcta": "Carlos Cruz-Diez",
+      "respuestas_incorrectas": [
+        "Oswaldo Guayasamín",
+        "Rufino Tamayo",
+        "Fernando Botero"
+      ],
+      "categoria": "Arte",
+      "dificultad": "difícil",
+      "consultarIA": "Un famoso artista plástico venezolano conocido por sus obras de arte abstracto es Carlos Cruz-Diez. Cruz-Diez es reconocido internacionalmente por su trabajo en el arte cinético y el arte óptico. Sus obras exploran la percepción del color y el movimiento, y ha creado numerosas instalaciones y piezas que juegan con la interacción de la luz y el color."
+    },
+    {
+      "id": 57,
+      "pregunta": "¿Qué fruta tropical es conocida como la 'fruta de la felicidad' en Venezuela?",
+      "respuesta_correcta": "Parchita",
+      "respuestas_incorrectas": [
+        "Mango",
+        "Papaya",
+        "Piña"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "En Venezuela, la parchita (también conocida como maracuyá o fruta de la pasión) es a menudo llamada la fruta de la felicidad. Esta fruta tropical es muy apreciada por su sabor dulce y refrescante, y se cree que tiene propiedades que mejoran el ánimo y la energía."
+    },
+    {
+      "id": 58,
+      "pregunta": "¿Cuál es el nombre de la famosa playa en la Isla de Margarita conocida por su belleza?",
+      "respuesta_correcta": "Playa El Agua",
+      "respuestas_incorrectas": [
+        "Playa Parguito",
+        "Playa Caribe",
+        "Playa Manzanillo"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa playa en la Isla de Margarita conocida por su belleza es Playa El Agua. Esta playa es muy popular entre turistas y locales por su extensa franja de arena blanca y sus aguas cristalinas. Es un lugar ideal para disfrutar del sol, el mar y diversas actividades acuáticas."
+    },
+    {
+      "id": 59,
+      "pregunta": "¿Qué es el 'Cerro El Ávila'?",
+      "respuesta_correcta": "Una montaña que rodea Caracas",
+      "respuestas_incorrectas": [
+        "Un parque nacional",
+        "Una playa",
+        "Una ciudad"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El Cerro El Ávila, también conocido como Waraira Repano, es una montaña icónica ubicada en el centro-norte de Venezuela, específicamente en la ciudad de Caracas. Forma parte de la Cordillera de la Costa y es un símbolo natural de la capital venezolana."
+    },
+    {
+      "id": 60,
+      "pregunta": "¿Qué famoso festival se celebra en la ciudad de Maracaibo en diciembre?",
+      "respuesta_correcta": "Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Feria de la Gaita",
+        "Feria de Valencia",
+        "Feria Internacional del Libro"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "En diciembre, Maracaibo celebra la Feria de la Chinita, uno de los festivales más importantes y tradicionales de la ciudad. Este evento honra a la Virgen de Chiquinquirá, conocida cariñosamente como La Chinita. La feria incluye una serie de actividades religiosas, culturales y recreativas, como procesiones, conciertos, corridas de toros y exposiciones artesanales."
+    },
+    {
+      "id": 61,
+      "pregunta": "¿Cuál es el nombre del principal río que atraviesa Venezuela de este a oeste?",
+      "respuesta_correcta": "Río Orinoco",
+      "respuestas_incorrectas": [
+        "Río Caroní",
+        "Río Zulia",
+        "Río Apure"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El principal río que atraviesa Venezuela de este a oeste es el río Orinoco. Este río es uno de los más importantes de América del Sur y tiene una longitud de aproximadamente 2,140 kilómetros. El Orinoco nace en el estado Amazonas, en el sur de Venezuela, y fluye hacia el norte y luego hacia el este, desembocando en el Océano Atlántico."
+    },
+    {
+      "id": 62,
+      "pregunta": "¿Qué famoso compositor venezolano es conocido por la creación de la Orquesta Sinfónica Simón Bolívar?",
+      "respuesta_correcta": "José Antonio Abreu",
+      "respuestas_incorrectas": [
+        "Gustavo Dudamel",
+        "Teresa Carreño",
+        "Simón Bolívar"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El famoso compositor y director de orquesta venezolano conocido por la creación de la Orquesta Sinfónica Simón Bolívar es José Antonio Abreu. Fundó esta orquesta en 1975 como parte de su proyecto El Sistema, un programa de educación musical que ha tenido un impacto significativo en la vida de miles de jóvenes venezolanos y ha ganado reconocimiento internacional."
+    },
+    {
+      "id": 63,
+      "pregunta": "¿Qué es el 'pabellón criollo'?",
+      "respuesta_correcta": "Un plato típico venezolano",
+      "respuestas_incorrectas": [
+        "Un tipo de música",
+        "Una danza tradicional",
+        "Un postre"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El pabellón criollo es uno de los platos más emblemáticos de la gastronomía venezolana. Este plato tradicional consiste en una combinación de arroz blanco, carne mechada (carne desmenuzada y guisada), caraotas negras (frijoles negros) y tajadas de plátano maduro frito. A veces, también se acompaña con arepas o queso blanco."
+    },
+    {
+      "id": 64,
+      "pregunta": "¿Cuál es el nombre del famoso carnaval que se celebra en el estado de Anzoátegui?",
+      "respuesta_correcta": "Carnaval de El Tigre",
+      "respuestas_incorrectas": [
+        "Carnaval de Maracaibo",
+        "Carnaval de Caracas",
+        "Carnaval de Valencia"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso carnaval que se celebra en el estado de Anzoátegui es el Carnaval de El Tigre. Este evento es conocido por sus coloridos desfiles, disfraces vibrantes y una gran variedad de actividades culturales y recreativas. Es una de las celebraciones más esperadas en la región y atrae a numerosos visitantes cada año."
+    },
+    {
+      "id": 65,
+      "pregunta": "¿Qué famoso escritor venezolano es conocido por su obra 'Los de abajo'?",
+      "respuesta_correcta": "Mariano Azuela",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Andrés Eloy Blanco",
+        "Arturo Uslar Pietri"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "La obra 'Los de abajo' es en realidad del escritor mexicano Mariano Azuela. Es una novela muy conocida sobre la Revolución Mexicana."
+    },
+    {
+      "id": 66,
+      "pregunta": "¿Qué es el 'sancocho'?",
+      "respuesta_correcta": "Un plato típico venezolano a base de sopa y carne",
+      "respuestas_incorrectas": [
+        "Un tipo de música",
+        "Un postre",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El sancocho es una sopa tradicional de varios países de América Latina, incluyendo Venezuela, Colombia, y la República Dominicana. Se caracteriza por ser un plato muy sustancioso y nutritivo, hecho a base de diferentes tipos de carnes (como pollo, res, cerdo o pescado) y una variedad de tubérculos y verduras, como yuca, papa, plátano, maíz y zanahoria."
+    },
+    {
+      "id": 67,
+      "pregunta": "¿Cuál es el nombre de la capital del estado de Zulia?",
+      "respuesta_correcta": "Maracaibo",
+      "respuestas_incorrectas": [
+        "Valencia",
+        "Caracas",
+        "Barquisimeto"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La capital del estado de Zulia, en Venezuela, es Maracaibo. Es una ciudad conocida por su lago, el Lago de Maracaibo, y por su vibrante cultura y música, especialmente la gaita zuliana."
+    },
+    {
+      "id": 68,
+      "pregunta": "¿Qué famoso artista venezolano es conocido como 'El Puma'?",
+      "respuesta_correcta": "José Luis Rodríguez",
+      "respuestas_incorrectas": [
+        "Oscar D'León",
+        "Gustavo Dudamel",
+        "Simón Díaz"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El famoso artista venezolano conocido como El Puma es José Luis Rodríguez. Es un cantante, actor y productor musical muy reconocido en América Latina. Su apodo proviene de un personaje que interpretó en una telenovela venezolana llamada Una muchacha llamada Milagros"
+    },
+    {
+      "id": 69,
+      "pregunta": "¿Qué famoso científico venezolano es conocido por sus estudios sobre la biodiversidad en el país?",
+      "respuesta_correcta": "Jon Paul Rodríguez",
+      "respuestas_incorrectas": [
+        "Andrés Bello",
+        "Luis Herrera",
+        "José Gregorio Hernández"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "Un científico venezolano destacado por sus estudios sobre la biodiversidad es Jon Paul Rodríguez. Es conocido por su trabajo en la conservación de la biodiversidad y la formulación de políticas ambientales. Rodríguez ha sido fundamental en la creación de la Lista Roja de Ecosistemas de la Unión Internacional para la Conservación de la Naturaleza (UICN) y ha liderado importantes proyectos de conservación en Venezuela."
+    },
+    {
+      "id": 70,
+      "pregunta": "¿Qué es el 'joropo'?",
+      "respuesta_correcta": "Un género musical y danza típica de los Llanos",
+      "respuestas_incorrectas": [
+        "Un tipo de comida",
+        "Un festival",
+        "Un instrumento musical"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El joropo es un género musical y un baile tradicional de Venezuela. Es considerado el baile nacional del país y tiene sus raíces en la música y danza de los llanos venezolanos. El joropo combina influencias indígenas, africanas y españolas, y se caracteriza por su ritmo rápido y alegre."
+    },
+    {
+      "id": 71,
+      "pregunta": "¿Cuál es el nombre de la principal cadena montañosa que se extiende a lo largo de Venezuela?",
+      "respuesta_correcta": "Los Andes",
+      "respuestas_incorrectas": [
+        "La Cordillera de la Costa",
+        "La Sierra de Perijá",
+        "Los Apalaches"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La principal cadena montañosa que se extiende a lo largo de Venezuela es la Cordillera de los Andes. Esta cadena montañosa atraviesa varios países de América del Sur, incluyendo Venezuela, Colombia, Ecuador, Perú, Bolivia, Chile y Argentina. En Venezuela, los Andes se encuentran principalmente en los estados de Mérida, Táchira y Trujillo."
+    },
+    {
+      "id": 72,
+      "pregunta": "¿Qué es el 'arequipe' en la gastronomía venezolana?",
+      "respuesta_correcta": "Un dulce de leche",
+      "respuestas_incorrectas": [
+        "Un tipo de pan",
+        "Un postre de chocolate",
+        "Una bebida"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El arequipe, también conocido como dulce de leche en otros países, es un postre muy popular en Venezuela. Se elabora a partir de leche y azúcar, que se cocinan lentamente hasta obtener una mezcla espesa y caramelizada. El resultado es una crema dulce y suave, de color marrón claro, que se utiliza como relleno para postres, acompañamiento para frutas, o simplemente se disfruta solo."
+    },
+    {
+      "id": 73,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Barquisimeto?",
+      "respuesta_correcta": "Festival internacional de jazz de Barquisimeto",
+      "respuestas_incorrectas": [
+        "Festival Internacional de Música de Caracas",
+        "Festival de Jazz de Maracaibo",
+        "Festival de Música de Mérida"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso festival de música que se celebra en la ciudad de Barquisimeto es el Festival Internacional de Jazz de Barquisimeto. Este evento reúne a destacados músicos de jazz de Venezuela y del mundo, ofreciendo una variedad de conciertos y actividades culturales."
+    },
+    {
+      "id": 74,
+      "pregunta": "¿Qué famoso poeta venezolano es conocido por su obra 'Pintame Angelitos Negros'?",
+      "respuesta_correcta": "Andrés Eloy Blanco",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "José Antonio Ramos Sucre",
+        "Vicente Gerbasi"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "El famoso poeta venezolano conocido por su obra Píntame angelitos negros es Andrés Eloy Blanco. Este poema es uno de sus trabajos más reconocidos y aborda temas de racismo y discriminación, reflejando su compromiso social y su sensibilidad poética."
+    },
+    {
+      "id": 75,
+      "pregunta": "¿Cuál es el nombre del famoso plato venezolano hecho con plátano frito y carne?",
+      "respuesta_correcta": "Patacon",
+      "respuestas_incorrectas": [
+        "Arepas",
+        "Empanadas",
+        "Hallacas"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "plato venezolano famoso que incluye plátano frito y carne es el patacón. Este plato se hace con plátanos verdes fritos que se aplastan y se utilizan como base o pan para un sándwich relleno de carne, pollo, queso, y otros ingredientes. Es una delicia muy popular en la gastronomía venezolana."
+    },
+    {
+      "id": 76,
+      "pregunta": "¿Qué es el 'bachaqueo' en el contexto venezolano?",
+      "respuesta_correcta": "El contrabando de productos básicos",
+      "respuestas_incorrectas": [
+        "Un tipo de música",
+        "Una danza tradicional",
+        "Un plato típico"
+      ],
+      "categoria": "Economía",
+      "dificultad": "medio",
+      "consultarIA": "El bachaqueo es un fenómeno que surgió en Venezuela durante la crisis económica y se refiere a la compra y reventa de productos básicos a precios mucho más altos. El término proviene de la palabra bachaco, una hormiga grande que carga objetos pesados, simbolizando a las personas que compran grandes cantidades de productos subsidiados para revenderlos."
+    },
+    {
+      "id": 77,
+      "pregunta": "¿Qué famoso científico, Medico conocido como El Medico De Los Pobres?",
+      "respuesta_correcta": "José Gregorio Hernández",
+      "respuestas_incorrectas": [
+        "Andrés Bello",
+        "Rafael Rangel",
+        "Luis Herrera"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "José Gregorio Hernández es una figura muy respetada y querida en Venezuela, conocido como el Médico de los Pobres por su dedicación a la medicina y su ayuda a los más necesitados. Hernández fue un pionero en la medicina experimental en Venezuela y realizó importantes contribuciones en el campo de la bacteriología y la histología. Además, fue beatificado por la Iglesia Católica en 2021, lo que resalta su impacto tanto en la ciencia como en la espiritualidad."
+    },
+    {
+      "id": 78,
+      "pregunta": "¿Cuál es el nombre de la famosa playa en el Parque Nacional Morrocoy?",
+      "respuesta_correcta": "Cayo Sombrero",
+      "respuestas_incorrectas": [
+        "Playa El Agua",
+        "Playa Caribe",
+        "Playa Los Cocos"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "Una de las playas más famosas del Parque Nacional Morrocoy es Cayo Sombrero. Este cayo es muy popular entre los visitantes por sus aguas cristalinas y su arena blanca. Es un destino ideal para actividades como el snorkeling, el buceo y los paseos en bote."
+    },
+    {
+      "id": 79,
+      "pregunta": "¿Qué bebida energética es originaria de Venezuela?",
+      "respuesta_correcta": "Guarapita",
+      "respuestas_incorrectas": [
+        "Té de yerbabuena",
+        "Café con leche",
+        "Chicha"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "Una bebida energética originaria de Venezuela es Guarapita. Aunque no es una bebida energética en el sentido tradicional como Red Bull o Monster, Guarapita es una bebida alcohólica espumosa muy popular en el país."
+    },
+    {
+      "id": 80,
+      "pregunta": "¿Qué es el 'sancocho de pescado'?",
+      "respuesta_correcta": "Una sopa de pescado típica de Venezuela",
+      "respuestas_incorrectas": [
+        "Un tipo de música",
+        "Un postre",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El sancocho de pescado es un plato tradicional de varios países de América Latina y el Caribe incluyendo a Venezuela. Es una sopa o guiso que se prepara con pescado fresco y una variedad de vegetales y tubérculos. Los ingredientes comunes incluyen yuca, plátano, maíz, papas, zanahorias y cilantro. El caldo se sazona con especias y hierbas, lo que le da un sabor muy rico y reconfortante."
+    },
+    {
+      "id": 81,
+      "pregunta": "¿Cuál es el nombre del famoso sistema de orquestas infantiles y juveniles en Venezuela?",
+      "respuesta_correcta": "El Sistema",
+      "respuestas_incorrectas": [
+        "La Orquesta Sinfónica",
+        "La Banda Marcial",
+        "La Orquesta Filarmónica"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso sistema de orquestas infantiles y juveniles en Venezuela se llama El Sistema. Fundado en 1975 por el maestro José Antonio Abreu, El Sistema ha sido un modelo de educación musical que ha impactado a miles de niños y jóvenes en Venezuela y en otros países. Su objetivo principal es la inclusión social a través de la música, proporcionando formación musical gratuita y de alta calidad."
+    },
+    {
+      "id": 82,
+      "pregunta": "¿Qué es el 'pabellón' en la gastronomía venezolana?",
+      "respuesta_correcta": "Un plato tradicional que incluye arroz, carne y caraotas",
+      "respuestas_incorrectas": [
+        "Un tipo de bebida",
+        "Un postre",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El pabellón criollo es uno de los platos más emblemáticos de la gastronomía venezolana. Consiste en una combinación de arroz blanco, carne mechada (carne de res desmenuzada y guisada), caraotas negras (frijoles negros) y tajadas de plátano maduro frito. A veces, se acompaña con arepas o queso blanco. Este plato representa la diversidad cultural de Venezuela, con influencias indígenas, africanas y españolas. Cada componente del pabellón tiene su propio sabor y textura, creando una experiencia culinaria muy rica y balanceada."
+    },
+    {
+      "id": 83,
+      "pregunta": "¿Cuál es el nombre del famoso parque nacional que alberga el tepuy Auyantepuy?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional Sierra Nevada"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El famoso parque nacional que alberga el tepuy Auyantepuy es el Parque Nacional Canaima. Este parque, ubicado en el sureste de Venezuela, es conocido por sus impresionantes paisajes, incluyendo el Salto Ángel, la cascada más alta del mundo."
+    },
+    {
+      "id": 84,
+      "pregunta": "¿Qué famoso artista venezolano es conocido por su estilo de pintura abstracta y cinética?",
+      "respuesta_correcta": "Carlos Cruz-Diez",
+      "respuestas_incorrectas": [
+        "Oswaldo Guayasamín",
+        "Rufino Tamayo",
+        "Fernando Botero"
+      ],
+      "categoria": "Arte",
+      "dificultad": "difícil",
+      "consultarIA": "El famoso artista venezolano conocido por su estilo de pintura abstracta y cinética es Carlos Cruz-Diez. Nacido en 1923, Cruz-Diez es uno de los principales exponentes del arte cinético y óptico. Su obra se centra en la interacción del color y la percepción visual, creando efectos dinámicos y cambiantes que involucran al espectador en una experiencia activa."
+    },
+    {
+      "id": 85,
+      "pregunta": "¿Cuál es el nombre de la ciudad conocida como la 'Ciudad de los Caballos' en Venezuela?",
+      "respuesta_correcta": "Valencia",
+      "respuestas_incorrectas": [
+        "Maracaibo",
+        "Barinas",
+        "Caracas"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La ciudad conocida como la 'Ciudad de los Caballos' en Venezuela es Valencia. Esta ciudad tiene una rica historia ecuestre y es famosa por sus tradiciones relacionadas con los caballos."
+    },
+    {
+      "id": 86,
+      "pregunta": "¿Cuál es el nombre del famoso río que forma parte de la frontera entre Venezuela y Brasil?",
+      "respuesta_correcta": "Río Negro",
+      "respuestas_incorrectas": [
+        "Río Orinoco",
+        "Río Caroní",
+        "Río Apure"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El famoso río que forma parte de la frontera entre Venezuela y Brasil es el río Negro. Este río es uno de los principales afluentes del Amazonas y juega un papel importante en la delimitación de la frontera entre ambos países."
+    },
+    {
+      "id": 87,
+      "pregunta": "¿Cuál es el nombre del famoso río que forma la frontera entre Venezuela y Colombia?",
+      "respuesta_correcta": "Río Táchira",
+      "respuestas_incorrectas": [
+        "Río Orinoco",
+        "Río Zulia",
+        "Río Caroní"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El río Táchira es uno de los ríos que forman parte de la frontera entre Venezuela y Colombia. Este río es especialmente significativo en la región andina, delimitando parte de la frontera entre el estado Táchira en Venezuela y el departamento de Norte de Santander en Colombia."
+    },
+    {
+      "id": 88,
+      "pregunta": "¿Qué es el 'arroz con pollo' en la gastronomía venezolana?",
+      "respuesta_correcta": "Un plato tradicional que combina arroz y pollo",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una bebida",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El arroz con pollo es un plato muy popular en la gastronomía venezolana. Consiste en arroz cocido con trozos de pollo, y suele incluir una variedad de vegetales como zanahorias, guisantes, pimientos y cebollas. A menudo se sazona con ajo, comino, y otras especias para darle un sabor delicioso y aromático. Es un plato muy completo y nutritivo, ideal para compartir en familia."
+    },
+    {
+      "id": 89,
+      "pregunta": "¿Qué famoso líder venezolano es conocido como el Libertador de América?",
+      "respuesta_correcta": "Simón Bolívar",
+      "respuestas_incorrectas": [
+        "Hugo Chávez",
+        "Francisco de Miranda",
+        "Antonio José de Sucre"
+      ],
+      "categoria": "Historia",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso líder venezolano conocido como el Libertador de América es Simón Bolívar. Bolívar jugó un papel crucial en la independencia de varios países sudamericanos, incluyendo Venezuela, Colombia, Ecuador, Perú, y Bolivia. Su legado como líder y visionario sigue siendo una parte fundamental de la historia y la identidad de América Latina."
+    },
+    {
+      "id": 90,
+      "pregunta": "¿Qué es el 'cachapa'?",
+      "respuesta_correcta": "Una tortilla de maíz dulce típica de Venezuela",
+      "respuestas_incorrectas": [
+        "Un tipo de arepa",
+        "Un postre",
+        "Una bebida"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La cachapa es un plato tradicional venezolano hecho a base de maíz tierno molido. Se prepara como una especie de panqueque grueso y se cocina en una plancha o sartén. Las cachapas suelen servirse con queso de mano, un queso fresco y suave típico de Venezuela, y a veces se acompañan con jamón o carne mechada."
+    },
+    {
+      "id": 91,
+      "pregunta": "¿Cuál es el nombre del famoso monumento en Caracas que representa a Simón Bolívar?",
+      "respuesta_correcta": "Estatua Ecuestre de Simón Bolívar",
+      "respuestas_incorrectas": [
+        "La Plaza Bolívar",
+        "El Ávila",
+        "La Catedral de Caracas"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso monumento en Caracas que representa a Simón Bolívar es la Estatua Ecuestre de Simón Bolívar. Esta estatua se encuentra en la Plaza Bolívar, en el centro de la ciudad, y es uno de los monumentos más emblemáticos de Venezuela. Fue inaugurada en 1874 y es un símbolo importante de la independencia y el legado de Bolívar."
+    },
+    {
+      "id": 92,
+      "pregunta": "¿Qué es el 'tambor' en la cultura venezolana?",
+      "respuesta_correcta": "Un lugar de encuentro para la música y el baile",
+      "respuestas_incorrectas": [
+        "Un tipo de comida",
+        "Una danza tradicional",
+        "Un festival"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "En la cultura venezolana, el tambor es un instrumento musical de gran importancia, especialmente en las tradiciones afrovenezolanas. Los tambores se utilizan en diversas festividades, rituales y celebraciones, y son fundamentales en la música tradicional del país."
+    },
+    {
+      "id": 93,
+      "pregunta": "¿Cuál es el nombre del famoso escritor venezolano autor de 'Doña Bárbara'?",
+      "respuesta_correcta": "Rómulo Gallegos",
+      "respuestas_incorrectas": [
+        "Andrés Bello",
+        "José Antonio Ramos Sucre",
+        "María Teresa Castillo"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso escritor venezolano autor de 'Doña Bárbara' es Rómulo Gallegos. Publicada en 1929, esta novela es una de las obras más importantes de la literatura venezolana y latinoamericana. Gallegos fue un destacado novelista y político, y su obra ha dejado una huella profunda en la cultura de Venezuela."
+    },
+    {
+      "id": 94,
+      "pregunta": "¿Qué es el 'carnaval de El Callao'?",
+      "respuesta_correcta": "Una celebración tradicional con música y disfraces",
+      "respuestas_incorrectas": [
+        "Una fiesta de Navidad",
+        "Un festival de cine",
+        "Una feria agrícola"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El Carnaval de El Callao es una de las festividades más emblemáticas y coloridas de Venezuela. Se celebra en la localidad de El Callao, en el estado Bolívar, y es conocido por su vibrante mezcla de tradiciones africanas, antillanas y venezolanas. Este carnaval se destaca por sus desfiles llenos de música, baile y disfraces elaborados. Los participantes suelen vestirse con trajes coloridos y máscaras, y bailan al ritmo del calipso, un género musical que tiene sus raíces en las islas del Caribe. El calipso es interpretado por bandas locales que utilizan instrumentos como tambores, maracas y cuatros."
+    },
+    {
+      "id": 95,
+      "pregunta": "¿Qué famoso científico venezolano es conocido por sus investigaciones sobre la biodiversidad?",
+      "respuesta_correcta": "Jon Paul Rodríguez.",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "José Gregorio Hernández",
+        "Rafael Rangel"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "El famoso científico venezolano conocido por sus investigaciones sobre la biodiversidad es Jon Paul Rodríguez. Es presidente de la ONG ambientalista Provita y ha realizado importantes contribuciones a la conservación de la biodiversidad y la formulación de políticas ambientales. Su trabajo incluye la co-creación de la Lista Roja de Ecosistemas de la Unión Internacional para la Conservación de la Naturaleza (UICN) y numerosos proyectos de conservación en Venezuela."
+    },
+    {
+      "id": 96,
+      "pregunta": "¿Cuál es el nombre de la famosa bebida a base de pasta en Venezuela?",
+      "respuesta_correcta": "Chicha",
+      "respuestas_incorrectas": [
+        "Té de yerbabuena",
+        "Café con leche",
+        "Jugo de caña"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa bebida a base de pasta en Venezuela se llama chicha de pasta. Esta bebida es una variante de la tradicional chicha venezolana, pero en lugar de utilizar arroz, se emplea pasta, generalmente espagueti. La chicha de pasta es conocida por su sabor dulce y su textura cremosa, y se prepara mezclando la pasta cocida con leche, azúcar, canela y vainilla."
+    },
+    {
+      "id": 97,
+      "pregunta": "¿Qué es el 'burriquito' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Un instrumento musical",
+        "Una fiesta"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El 'burriquito' en la música venezolana se refiere a una danza tradicional que se realiza durante las festividades navideñas. Esta danza es especialmente popular en los estados de la región central del país. Los participantes se visten con disfraces que imitan a un burro y realizan movimientos que simulan el andar del animal, acompañados por música alegre y festiva."
+    },
+    {
+      "id": 98,
+      "pregunta": "¿Cuál es el nombre del famoso parque nacional que alberga el Salto Ángel?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional Sierra Nevada"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso parque nacional que alberga el Salto Ángel se llama Parque Nacional Canaima. Este parque está ubicado en el sureste de Venezuela y es conocido por sus impresionantes paisajes y biodiversidad."
+    },
+    {
+      "id": 99,
+      "pregunta": "¿Qué es el 'cocuy'?",
+      "respuesta_correcta": "Una bebida alcohólica típica de Venezuela",
+      "respuestas_incorrectas": [
+        "Un tipo de pan",
+        "Un postre",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "El cocuy es una bebida alcohólica destilada a partir de los jugos fermentados del agave, específicamente del Agave cocui, una planta que crece en las regiones semiáridas de Venezuela. Es conocido como el tequila de Venezuela debido a su sabor similar a otros licores de agave como el tequila y el mezcal."
+    },
+    {
+      "id": 100,
+      "pregunta": "¿Cuál es el nombre de la famosa zona de playas en el estado Vargas?",
+      "respuesta_correcta": "La Guaira",
+      "respuestas_incorrectas": [
+        "Maracaibo",
+        "Margarita",
+        "Cayo de Agua"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa zona de playas en el estado Vargas se llama La Guaira. Esta área es conocida por sus hermosas playas y su proximidad a Caracas, lo que la convierte en un destino popular para los residentes de la capital y turistas. Algunas de las playas más conocidas en La Guaira incluyen Playa Los Caracas, Playa El Yate y Playa Caribe."
+    },
+    {
+      "id": 101,
+      "pregunta": "¿Cuál es el nombre del famoso baile tradicional venezolano que se originó en la región de los Llanos?",
+      "respuesta_correcta": "Joropo",
+      "respuestas_incorrectas": [
+        "Merengue",
+        "Salsa",
+        "Tango"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso baile tradicional venezolano que se originó en la región de los Llanos se llama joropo. Este baile es una expresión cultural muy importante en Venezuela y combina música, canto y danza. El joropo se caracteriza por su ritmo rápido y alegre, y es acompañado por instrumentos típicos como el arpa, el cuatro y las maracas."
+    },
+    {
+      "id": 102,
+      "pregunta": "¿Qué es la 'arepa'?",
+      "respuesta_correcta": "Un alimento a base de maíz",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una bebida",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La arepa es un alimento tradicional de Venezuela y Colombia, hecho a base de masa de maíz. Es una especie de pan redondo y plano que se puede asar, freír o cocinar al horno. Las arepas son muy versátiles y se pueden rellenar con una variedad de ingredientes como queso, carne, pollo, aguacate, frijoles, entre otros."
+    },
+    {
+      "id": 103,
+      "pregunta": "¿Cuál es el nombre del famoso artista venezolano conocido por sus esculturas de animales?",
+      "respuesta_correcta": "Francisco Narváez",
+      "respuestas_incorrectas": [
+        "Gustavo Dudamel",
+        "Oswaldo Vigas",
+        "Alfredo Sadel"
+      ],
+      "categoria": "Arte",
+      "dificultad": "medio",
+      "consultarIA": "El famoso artista venezolano conocido por sus esculturas de animales es Francisco Narváez. Narváez es reconocido por sus obras en piedra, bronce y madera, y sus esculturas a menudo representan figuras humanas y animales con un estilo distintivo que combina elementos indígenas y modernos."
+    },
+    {
+      "id": 104,
+      "pregunta": "¿Qué famoso evento deportivo se celebra anualmente en Venezuela?",
+      "respuesta_correcta": "Maratón de Caracas",
+      "respuestas_incorrectas": [
+        "Juegos Olímpicos",
+        "Fútbol Profesional",
+        "Copa América"
+      ],
+      "categoria": "Deportes",
+      "dificultad": "medio",
+      "consultarIA": "Uno de los eventos deportivos más famosos que se celebra anualmente en Venezuela es el Maratón de Caracas. Este evento atrae a corredores de todo el país y del extranjero, quienes participan en diferentes categorías y distancias, incluyendo el maratón completo de 42 kilómetros, medio maratón y carreras más cortas."
+    },
+    {
+      "id": 105,
+      "pregunta": "¿Cuál es el nombre del famoso río que es el más largo de Venezuela?",
+      "respuesta_correcta": "Río Orinoco",
+      "respuestas_incorrectas": [
+        "Río Caroní",
+        "Río Zulia",
+        "Río Táchira"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El río más largo de Venezuela es el río Orinoco. Este río tiene una longitud de aproximadamente 2,140 kilómetros y es uno de los ríos más importantes de América del Sur. El Orinoco atraviesa gran parte del país y es vital para la biodiversidad y la economía de la región."
+    },
+    {
+      "id": 106,
+      "pregunta": "¿Qué es el 'Ponche de Crema' en la gastronomía venezolana?",
+      "respuesta_correcta": "Una bebida alcohólica tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una salsa",
+        "Un tipo de pan"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "El Ponche Crema es una bebida que no solo se disfruta por su sabor, sino también por su capacidad de evocar recuerdos y tradiciones familiares durante las festividades. "
+    },
+    {
+      "id": 107,
+      "pregunta": "¿Cuál es el nombre del famoso parque nacional donde se encuentra el Roraima?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional Sierra Nevada"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El famoso parque nacional donde se encuentra el Monte Roraima se llama Parque Nacional Canaima. Este parque está ubicado en el sureste de Venezuela, en el estado Bolívar, y es conocido por sus impresionantes paisajes, que incluyen tepuyes (mesetas de cima plana), cascadas como el Salto Ángel, y una rica biodiversidad."
+    },
+    {
+      "id": 108,
+      "pregunta": "¿Qué famoso escritor es conocido por su obra 'La casa de los espíritus'?",
+      "respuesta_correcta": "Isabel Allende",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "La famosa escritora conocida por su obra 'La casa de los espíritus' es Isabel Allende. Publicada en 1982, esta novela es una de las más reconocidas de la autora chilena y ha sido traducida a numerosos idiomas. La historia mezcla elementos de realismo mágico y sigue la vida de la familia Trueba a lo largo de varias generaciones."
+    },
+    {
+      "id": 109,
+      "pregunta": "¿Cuál es el nombre de la famosa fiesta que se celebra en diciembre y es conocida por sus gaitas?",
+      "respuesta_correcta": "La Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "La Navidad",
+        "La Semana Santa"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa fiesta que se celebra en diciembre y es conocida por sus gaitas es La Feria de La Chinita. Esta festividad tiene lugar en Maracaibo, en el estado Zulia, y se celebra en honor a la Virgen de Chiquinquirá, también conocida como La Chinita. Las gaitas zulianas, un género musical tradicional de la región, son una parte esencial de las celebraciones, llenando el ambiente de alegría y ritmo."
+    },
+    {
+      "id": 110,
+      "pregunta": "¿Qué es la 'chicha' en la gastronomía venezolana?",
+      "respuesta_correcta": "Una bebida a base de arroz, pasta o maíz",
+      "respuestas_incorrectas": [
+        "Un postre",
+        "Una comida",
+        "Una salsa"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "En la gastronomía venezolana, la chicha es una bebida tradicional que puede variar en su preparación según la región."
+    },
+    {
+      "id": 111,
+      "pregunta": "¿Cuál es la capital de Venezuela?",
+      "respuesta_correcta": "Caracas",
+      "respuestas_incorrectas": [
+        "Maracaibo",
+        "Valencia",
+        "Barquisimeto"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La capital de Venezuela es Caracas. Es la ciudad más grande del país y el principal centro político, cultural, económico y comercial."
+    },
+    {
+      "id": 112,
+      "pregunta": "¿Qué es el 'tambores' en la música venezolana?",
+      "respuesta_correcta": "Un estilo musical afrovenezolano",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Un instrumento musical",
+        "Una festividad"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "En la música venezolana, los tambores son instrumentos de percusión fundamentales en varios géneros tradicionales, especialmente en la música afro-venezolana."
+    },
+    {
+      "id": 113,
+      "pregunta": "¿Cuál es el nombre de la famosa isla venezolana conocida por sus playas y turismo?",
+      "respuesta_correcta": "Isla de Margarita",
+      "respuestas_incorrectas": [
+        "Isla de Coche",
+        "Isla de La Tortuga",
+        "Isla de Los Roques"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa isla venezolana conocida por sus playas y turismo es la Isla de Margarita. Ubicada en el estado Nueva Esparta, Margarita es uno de los destinos turísticos más populares de Venezuela, conocida como La Perla del Caribe. La isla ofrece una gran variedad de playas de aguas cristalinas y arenas blancas, como Playa El Agua y Playa Parguito, además de una amplia oferta de actividades recreativas, hoteles, restaurantes y centros comerciales."
+    },
+    {
+      "id": 114,
+      "pregunta": "¿Qué es el 'sancocho' en la gastronomía venezolana?",
+      "respuesta_correcta": "Una sopa espesa hecha con carne y verduras",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una bebida",
+        "Un tipo de pan"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El sancocho es una sopa tradicional muy popular en la gastronomía venezolana. Es un plato reconfortante y nutritivo, ideal para compartir en reuniones familiares y ocasiones especiales."
+    },
+    {
+      "id": 115,
+      "pregunta": "¿Quién fue el primer presidente de Venezuela?",
+      "respuesta_correcta": "Cristóbal Mendoza",
+      "respuestas_incorrectas": [
+        "Simón Bolívar",
+        "Antonio Guzmán Blanco",
+        "Rómulo Betancourt"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "El primer presidente de Venezuela fue Cristóbal Mendoza. Asumió el cargo en 1811, liderando el primer triunvirato del Poder Ejecutivo tras la declaración de independencia de España. Mendoza jugó un papel crucial en la formación de la primera Constitución de Venezuela."
+    },
+    {
+      "id": 116,
+      "pregunta": "¿Qué es el 'carnaval' en Venezuela?",
+      "respuesta_correcta": "Una celebración que se lleva a cabo antes de la Cuaresma",
+      "respuestas_incorrectas": [
+        "Una festividad religiosa",
+        "Una feria agrícola",
+        "Una fiesta de fin de año"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "El Carnaval en Venezuela es una de las festividades más coloridas y alegres del país, celebrada con gran entusiasmo en diversas regiones. Se lleva a cabo en los días previos al Miércoles de Ceniza, marcando el inicio de la Cuaresma en el calendario cristiano."
+    },
+    {
+      "id": 117,
+      "pregunta": "¿Cuál es el nombre de la famosa montaña que se encuentra en el Parque Nacional El Ávila?",
+      "respuesta_correcta": "El Ávila",
+      "respuestas_incorrectas": [
+        "Roraima",
+        "Pico Bolívar",
+        "Pico Humboldt"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa montaña que se encuentra en el Parque Nacional El Ávila se llama Cerro El Ávila, también conocido como Waraira Repano. Este parque es un ícono natural de Caracas y ofrece vistas espectaculares de la ciudad y del Mar Caribe. El punto más alto del parque es el Pico Naiguatá, que alcanza una altitud de 2,765 metros sobre el nivel del mar."
+    },
+    {
+      "id": 118,
+      "pregunta": "¿Qué es el 'bambuco' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música y danza tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de instrumento musical",
+        "Una fiesta popular",
+        "Un género literario"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El bambuco es un género musical tradicional de la región andina de Venezuela. Este estilo también se encuentra en los estados Zulia, Bolívar, Lara y en el Distrito Capital (Caracas). El bambuco venezolano se caracteriza por su ritmo y melodía distintivos, y suele interpretarse con instrumentos como el piano, el bajo, la guitarra, la mandolina y la flauta."
+    },
+    {
+      "id": 119,
+      "pregunta": "¿Cuál es el nombre de la famosa obra del artista plástico Venezolano Carlos Cruz-Diez?",
+      "respuesta_correcta": "Psicromia",
+      "respuestas_incorrectas": [
+        "El Hombre de Vitruvio",
+        "La Última Cena",
+        "El Grito"
+      ],
+      "categoria": "Arte",
+      "dificultad": "difícil",
+      "consultarIA": "Una de las obras más famosas del artista plástico venezolano Carlos Cruz-Diez es Fisicromía. Cruz-Diez es conocido por su trabajo en el arte cinético y óptico, y las Fisicromías son una serie de obras que exploran la percepción del color a través de la interacción de la luz y el movimiento del espectador."
+    },
+    {
+      "id": 120,
+      "pregunta": "¿Cuál es el nombre de la famosa fiesta que se celebra en el estado Zulia y es conocida por sus gaitas?",
+      "respuesta_correcta": "Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Fiesta de San Juan",
+        "Feria del Sol"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "La famosa fiesta que se celebra en el estado Zulia y es conocida por sus gaitas se llama La Feria de la Chinita. Esta celebración honra a la Virgen de Chiquinquirá, también conocida como La Chinita, y es un evento muy importante en la región, caracterizado por la música de gaitas, desfiles, y diversas actividades culturales."
+    },
+    {
+      "id": 121,
+      "pregunta": "¿Qué famoso escritor ganó el Premio Nobel de Literatura en 1982?",
+      "respuesta_correcta": "Gabriel García Márquez",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Andrés Eloy Blanco",
+        "María Teresa Castillo"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "medio",
+      "consultarIA": "El famoso escritor que ganó el Premio Nobel de Literatura en 1982 fue Gabriel García Márquez. Fue galardonado por sus novelas y cuentos en los que lo fantástico y lo real se combinan en un mundo ricamente compuesto de imaginación, reflejando la vida y los conflictos de un continente."
+    },
+    {
+      "id": 122,
+      "pregunta": "¿Qué famoso poeta venezolano es conocido por su obra 'Los Heraldos Negros'?",
+      "respuesta_correcta": "César Vallejo",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "Rómulo Gallegos",
+        "José Antonio Ramos Sucre"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "medio",
+      "consultarIA": "El poema Los Heraldos Negros es una obra del famoso poeta peruano César Vallejo. Publicado en 1919, este poema es una de las piezas más reconocidas de Vallejo y es parte de su primer libro de poemas, también titulado Los Heraldos Negros."
+    },
+    {
+      "id": 123,
+      "pregunta": "¿Cuál es el nombre del famoso sistema de misiones sociales implementado por el gobierno venezolano?",
+      "respuesta_correcta": "Misiones Bolivarianas",
+      "respuestas_incorrectas": [
+        "Plan de la Patria",
+        "Misión Robinson",
+        "Misión Barrio Adentro"
+      ],
+      "categoria": "Política",
+      "dificultad": "medio",
+      "consultarIA": "El famoso sistema de misiones sociales implementado por el gobierno venezolano se llama Misiones Bolivarianas. Estas misiones son programas sociales creados para abordar diversas áreas como la educación, la salud, la vivienda y la alimentación, con el objetivo de mejorar la calidad de vida de la población más vulnerable."
+    },
+    {
+      "id": 124,
+      "pregunta": "¿Qué es el 'joropo' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música y danza tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de instrumento musical",
+        "Una fiesta popular",
+        "Un género literario"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El joropo es un género musical y un baile tradicional de Venezuela. Se caracteriza por su ritmo rápido y alegre, y es interpretado con instrumentos como el arpa, el cuatro (una pequeña guitarra de cuatro cuerdas) y las maracas. El joropo tiene sus raíces en la música y danza de los llanos venezolanos y colombianos, y es una expresión cultural muy importante en la identidad venezolana."
+    },
+    {
+      "id": 125,
+      "pregunta": "¿Cuál es el nombre de la famosa fiesta que se celebra en el estado Zulia y es conocida por sus gaitas?",
+      "respuesta_correcta": "Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Fiesta de San Juan",
+        "Feria del Sol"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "La famosa fiesta que se celebra en el estado Zulia y es conocida por sus gaitas se llama La Feria de la Chinita. Esta celebración honra a la Virgen de Chiquinquirá, también conocida como La Chinita, y es un evento muy importante en la región, caracterizado por la música de gaitas, desfiles, y diversas actividades culturales. "
+    },
+    {
+      "id": 126,
+      "pregunta": "¿Qué es el 'tamunangue' en la cultura venezolana?",
+      "respuesta_correcta": "Una danza tradicional de la región",
+      "respuestas_incorrectas": [
+        "Un tipo de comida",
+        "Una festividad religiosa",
+        "Un instrumento musical"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El tamunangue es una manifestación cultural y religiosa de la región de Lara, en Venezuela. Es una danza tradicional que se celebra en honor a San Antonio de Padua y combina elementos de música, danza y teatro. El tamunangue se realiza principalmente el 13 de junio, día de San Antonio, y es una expresión de devoción y agradecimiento."
+    },
+    {
+      "id": 127,
+      "pregunta": "¿Cuál es el nombre del famoso río que atraviesa el Parque Nacional Canaima?",
+      "respuesta_correcta": "Río Carrao",
+      "respuestas_incorrectas": [
+        "Río Orinoco",
+        "Río Apure",
+        "Río Zulia"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El tamunangue es una manifestación cultural y religiosa de la región de Lara, en Venezuela. Es una danza tradicional que se celebra en honor a San Antonio de Padua y combina elementos de música, danza y teatro. El tamunangue se realiza principalmente el 13 de junio, día de San Antonio, y es una expresión de devoción y agradecimiento."
+    },
+    {
+      "id": 128,
+      "pregunta": "¿Qué famoso atleta venezolano ha ganado medallas olímpicas en salto triple?",
+      "respuesta_correcta": "Yulimar Rojas",
+      "respuestas_incorrectas": [
+        "Rafael Vidal",
+        "José Luis López",
+        "Dalia Contreras"
+      ],
+      "categoria": "Deportes",
+      "dificultad": "medio",
+      "consultarIA": "El famoso atleta venezolano que ha ganado medallas olímpicas en salto triple es Yulimar Rojas. Ella ganó la medalla de oro en los Juegos Olímpicos de Tokio 2020, estableciendo un nuevo récord mundial con un salto de 15.67 metros. Yulimar Rojas es ampliamente reconocida por sus logros y es una de las figuras más destacadas del atletismo venezolano."
+    },
+    {
+      "id": 129,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en Venezuela cada año?",
+      "respuesta_correcta": "Festival Internacional de Jazz de Caracas",
+      "respuestas_incorrectas": [
+        "Festival de la Gaita",
+        "Festival de la Salsa",
+        "Festival de la Canción Venezolana"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El Festival Internacional de Jazz de Caracas es uno de los eventos musicales más destacados que se celebra anualmente en Venezuela. Este festival reúne a talentosos músicos de jazz de todo el mundo y ofrece una plataforma para la apreciación de este género musical en el país. Además de conciertos, el festival suele incluir talleres, clases magistrales y otras actividades culturales relacionadas con el jazz."
+    },
+    {
+      "id": 130,
+      "pregunta": "¿Qué es el 'tambores' en la música venezolana?",
+      "respuesta_correcta": "Un estilo musical afrovenezolano",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Un instrumento musical",
+        "Una festividad"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "Los tambores en la música venezolana son instrumentos de percusión fundamentales en muchas tradiciones musicales del país. Estos tambores tienen raíces africanas y son especialmente prominentes en las celebraciones y rituales de las comunidades afrovenezolanas."
+    },
+    {
+      "id": 131,
+      "pregunta": "¿Quién fue el presidente de Venezuela que impulsó la 'Revolución Bolivariana'?",
+      "respuesta_correcta": "Hugo Chávez",
+      "respuestas_incorrectas": [
+        "Nicolás Maduro",
+        "Rómulo Betancourt",
+        "Carlos Andrés Pérez"
+      ],
+      "categoria": "Política",
+      "dificultad": "medio",
+      "consultarIA": "Hugo Chávez fue un líder carismático que llegó al poder en 1999 y promovió una serie de reformas sociales y políticas en Venezuela."
+    },
+    {
+      "id": 132,
+      "pregunta": "¿Cuál es el nombre del famoso parque nacional venezolano que alberga el Salto Ángel?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier",
+        "Parque Nacional El Ávila"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El Parque Nacional Canaima es conocido por su impresionante belleza natural y es hogar del Salto Ángel, la cascada más alta del mundo."
+    },
+    {
+      "id": 133,
+      "pregunta": "¿Qué es el 'carnaval' en Venezuela?",
+      "respuesta_correcta": "Una celebración que se lleva a cabo antes de la Cuaresma",
+      "respuestas_incorrectas": [
+        "Una festividad religiosa",
+        "Una feria agrícola",
+        "Una fiesta de fin de año"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El carnaval en Venezuela es una festividad llena de color, música y desfiles, que se celebra justo antes del inicio de la Cuaresma."
+    },
+    {
+      "id": 134,
+      "pregunta": "¿Cuál es el nombre del famoso pintor venezolano conocido por su obra 'El Hombre de la Máscara'?",
+      "respuesta_correcta": "Oswaldo Guayasamín",
+      "respuestas_incorrectas": [
+        "Carlos Cruz-Diez",
+        "Armando Reverón",
+        "Alfredo Sadel"
+      ],
+      "categoria": "Arte",
+      "dificultad": "medio",
+      "consultarIA": "Oswaldo Guayasamín es un destacado pintor y muralista que reflejó en su obra las luchas y sufrimientos de los pueblos latinoamericanos."
+    },
+    {
+      "id": 135,
+      "pregunta": "¿Qué famoso escritor es conocido por su obra 'La casa de los espíritus'?",
+      "respuesta_correcta": "Isabel Allende",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "Isabel Allende es una escritora chilena cuyas obras a menudo exploran temas de realismo mágico y la historia de América Latina."
+    },
+    {
+      "id": 136,
+      "pregunta": "¿Qué famoso plato venezolano está hecho a base de plátano frito y carne?",
+      "respuesta_correcta": "Tostones",
+      "respuestas_incorrectas": [
+        "Arepas",
+        "Pabellón criollo",
+        "Hallacas"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "Los tostones son un plato popular en la gastronomía venezolana, hechos de plátano verde frito y a menudo acompañados de carne."
+    },
+    {
+      "id": 137,
+      "pregunta": "¿Cuál es el nombre del principal periódico de circulación nacional en Venezuela?",
+      "respuesta_correcta": "El Nacional",
+      "respuestas_incorrectas": [
+        "El Universal",
+        "La Prensa",
+        "El Tiempo"
+      ],
+      "categoria": "Medios",
+      "dificultad": "medio",
+      "consultarIA": "El Nacional es uno de los periódicos más antiguos y reconocidos de Venezuela, fundado en 1943."
+    },
+    {
+      "id": 138,
+      "pregunta": "¿Qué es la 'cumbia' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música y danza tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de instrumento musical",
+        "Una festividad religiosa",
+        "Un género literario"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "La cumbia es un género musical que combina ritmos africanos, indígenas y españoles, y es popular en varias regiones de América Latina, incluida Venezuela."
+    },
+    {
+      "id": 139,
+      "pregunta": "¿Cuál es el nombre del famoso artista plástico venezolano conocido por su trabajo en la escultura?",
+      "respuesta_correcta": "Alejandro Otero",
+      "respuestas_incorrectas": [
+        "Carlos Cruz-Diez",
+        "Oswaldo Guayasamín",
+        "Armando Reverón"
+      ],
+      "categoria": "Arte",
+      "dificultad": "medio",
+      "consultarIA": "Alejandro Otero fue un destacado escultor y pintor venezolano, conocido por su contribución al arte moderno en Venezuela."
+    },
+    {
+      "id": 140,
+      "pregunta": "¿Cuál es el nombre de la famosa danza tradicional que se originó en la región andina de Venezuela?",
+      "respuesta_correcta": "El baile de la zuliana",
+      "respuestas_incorrectas": [
+        "La cumbia",
+        "El merengue",
+        "El joropo"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El baile de la zuliana es una danza tradicional que refleja la cultura y las costumbres de la región zuliana de Venezuela."
+    },
+    {
+      "id": 141,
+      "pregunta": "¿Cuál es el nombre del famoso volcán que se encuentra en Venezuela?",
+      "respuesta_correcta": "El Pico Bolívar",
+      "respuestas_incorrectas": [
+        "El Roraima",
+        "El Cerro Ávila",
+        "El Pico Humboldt"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "El Pico Bolívar es la montaña más alta de Venezuela, ubicada en la cordillera de los Andes."
+    },
+    {
+      "id": 142,
+      "pregunta": "¿Qué es el 'mérengue' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música y danza tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de instrumento musical",
+        "Una festividad religiosa",
+        "Un género literario"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El mérengue es un género musical y de baile que se originó en la República Dominicana, pero también ha influido en la música venezolana."
+    },
+    {
+      "id": 143,
+      "pregunta": "¿Cuál es el nombre del famoso escritor venezolano autor de 'Los de Abajo'?",
+      "respuesta_correcta": "Mariano Azuela",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Andrés Eloy Blanco",
+        "José Antonio Ramos Sucre"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "medio",
+      "consultarIA": "Mariano Azuela es un escritor mexicano, pero su obra 'Los de Abajo' es fundamental en la literatura latinoamericana, reflejando la Revolución Mexicana."
+    },
+    {
+      "id": 144,
+      "pregunta": "¿Qué es el 'bambuco' en la música venezolana?",
+      "respuesta_correcta": "Un estilo de música y danza tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de instrumento musical",
+        "Una fiesta popular",
+        "Un género literario"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "El bambuco es un género musical que tiene sus raíces en la música folclórica de Colombia, pero también se ha adaptado en Venezuela."
+    },
+    {
+      "id": 145,
+      "pregunta": "¿Cuál es el nombre del primer presidente de Venezuela?",
+      "respuesta_correcta": "Cristóbal Mendoza",
+      "respuestas_incorrectas": [
+        "Simón Bolívar",
+        "José Antonio Páez",
+        "Rómulo Gallegos"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "Cristóbal Mendoza fue el primer presidente de Venezuela, asumiendo el cargo en 1811 durante la Primera República."
+    },
+    {
+      "id": 146,
+      "pregunta": "¿Qué año se firmó la independencia de Venezuela?",
+      "respuesta_correcta": "1821",
+      "respuestas_incorrectas": [
+        "1810",
+        "1824",
+        "1830"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "La independencia de Venezuela fue proclamada el 5 de julio de 1811, pero se consolidó en 1821 tras la Batalla de Carabobo."
+    },
+    {
+      "id": 147,
+      "pregunta": "¿Cuál es el nombre del río más largo de Venezuela?",
+      "respuesta_correcta": "Río Orinoco",
+      "respuestas_incorrectas": [
+        "Río Caroní",
+        "Río Apure",
+        "Río Zulia"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El río Orinoco es uno de los ríos más importantes de América del Sur y forma parte de la cuenca hidrográfica más grande del país."
+    },
+    {
+      "id": 148,
+      "pregunta": "¿Qué famoso científico venezolano fue pionero en la investigación sobre la malaria?",
+      "respuesta_correcta": "José María Vargas",
+      "respuestas_incorrectas": [
+        "Andrés Bello",
+        "Rafael Rangel",
+        "Luis Razetti"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "José María Vargas fue un destacado médico y científico que realizó importantes contribuciones a la salud pública en Venezuela."
+    },
+    {
+      "id": 149,
+      "pregunta": "¿Cuál es el nombre del famoso poeta conocido por su obra 'Los Heraldos Negros'?",
+      "respuesta_correcta": "César Vallejo",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "Rómulo Gallegos",
+        "José Antonio Ramos Sucre"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "César Vallejo fue un poeta peruano, pero su obra 'Los Heraldos Negros' es fundamental en la poesía latinoamericana."
+    },
+    {
+      "id": 150,
+      "pregunta": "¿Qué es el 'Cerro de la Silla'?",
+      "respuesta_correcta": "Una montaña emblemática en Venezuela",
+      "respuestas_incorrectas": [
+        "Un parque nacional",
+        "Una ciudad",
+        "Un río"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Cerro de la Silla es una montaña icónica que se encuentra en el estado de Carabobo, conocida por su forma distintiva."
+    },
+    {
+      "id": 151,
+      "pregunta": "¿Cuál es el nombre del famoso artista plástico venezolano conocido por su trabajo en el arte cinético?",
+      "respuesta_correcta": "Carlos Cruz-Diez",
+      "respuestas_incorrectas": [
+        "Oswaldo Guayasamín",
+        "Alejandro Otero",
+        "Armando Reverón"
+      ],
+      "categoria": "Arte",
+      "dificultad": "difícil",
+      "consultarIA": "Carlos Cruz-Diez es un destacado artista venezolano conocido por su trabajo en el arte cinético y su exploración del color."
+    },
+    {
+      "id": 152,
+      "pregunta": "¿Qué tratado puso fin a la Guerra Federal en Venezuela?",
+      "respuesta_correcta": "Tratado de Coche",
+      "respuestas_incorrectas": [
+        "Tratado de Paz",
+        "Tratado de Caracas",
+        "Tratado de La Victoria"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "El Tratado de Coche fue firmado en 1863 y puso fin a la Guerra Federal, un conflicto que tuvo un gran impacto en la historia de Venezuela."
+    },
+    {
+      "id": 153,
+      "pregunta": "¿Cuál es el nombre del famoso volcán que se encuentra en la frontera entre Venezuela y Colombia?",
+      "respuesta_correcta": "Pico de la Neblina",
+      "respuestas_incorrectas": [
+        "Pico Bolívar",
+        "Pico Humboldt",
+        "Pico Roraima"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Pico de la Neblina es la montaña más alta de Venezuela y se encuentra en la frontera con Brasil, en la región amazónica."
+    },
+    {
+      "id": 154,
+      "pregunta": "¿Qué es el 'Café con Leche' en la cultura venezolana?",
+      "respuesta_correcta": "Una bebida tradicional",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una festividad",
+        "Un estilo de música"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "difícil",
+      "consultarIA": "El Café con Leche es una bebida muy popular en Venezuela, especialmente en el desayuno, y se prepara con café y leche caliente."
+    },
+    {
+      "id": 155,
+      "pregunta": "¿Cuál es el nombre del movimiento político fundado por Hugo Chávez?",
+      "respuesta_correcta": "Movimiento Quinta República",
+      "respuestas_incorrectas": [
+        "Partido Socialista Unido de Venezuela",
+        "Acción Democrática",
+        "Copei"
+      ],
+      "categoria": "Política",
+      "dificultad": "difícil",
+      "consultarIA": "El Movimiento Quinta República fue fundado por Hugo Chávez en 1997 y se convirtió en el partido político que lo llevó a la presidencia."
+    },
+    {
+      "id": 156,
+      "pregunta": "¿Qué es 'Carabobo' en la historia de Venezuela?",
+      "respuesta_correcta": "Una batalla decisiva en la independencia",
+      "respuestas_incorrectas": [
+        "Una región",
+        "Un tratado",
+        "Un presidente"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "La Batalla de Carabobo, librada en 1821, fue crucial para la independencia de Venezuela y marcó el fin de la dominación española."
+    },
+    {
+      "id": 157,
+      "pregunta": "¿Quién fue el primer presidente constitucional de Venezuela?",
+      "respuesta_correcta": "José María Vargas",
+      "respuestas_incorrectas": [
+        "Simón Bolívar",
+        "José Antonio Páez",
+        "Rómulo Gallegos"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "José María Vargas fue el primer presidente constitucional de Venezuela, asumiendo el cargo en 1859."
+    },
+    {
+      "id": 158,
+      "pregunta": "¿Cuál es el nombre del famoso cuadro de Armando Reverón que representa la luz de Venezuela?",
+      "respuesta_correcta": "La luz de Venezuela",
+      "respuestas_incorrectas": [
+        "El paisaje de Caracas",
+        "El mar de La Guaira",
+        "La montaña mágica"
+      ],
+      "categoria": "Arte",
+      "dificultad": "difícil",
+      "consultarIA": "Armando Reverón es conocido por su uso innovador de la luz en la pintura, y 'La luz de Venezuela' es una de sus obras más emblemáticas."
+    },
+    {
+      "id": 159,
+      "pregunta": "¿Qué es el 'Cerro Roraima'?",
+      "respuesta_correcta": "Una montaña de forma plana en la frontera de Venezuela, Brasil y Guyana",
+      "respuestas_incorrectas": [
+        "Un volcán activo",
+        "Una ciudad",
+        "Un parque nacional"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Cerro Roraima es un tepuy famoso por su forma plana y su biodiversidad única, y es un destino popular para el ecoturismo."
+    },
+    {
+      "id": 160,
+      "pregunta": "¿Qué país fue el primer en reconocer la independencia de Venezuela?",
+      "respuesta_correcta": "Gran Colombia",
+      "respuestas_incorrectas": [
+        "España",
+        "Francia",
+        "Estados Unidos"
+      ],
+      "categoria": "Historia",
+      "dificultad": "difícil",
+      "consultarIA": "Gran Colombia fue la unión de varios países sudamericanos, incluyendo Venezuela, y fue uno de los primeros en reconocer su independencia en 1821."
+    },
+    {
+      "id": 161,
+      "pregunta": "¿Cuál es el nombre del famoso poema de Andrés Eloy Blanco que se considera un himno a la libertad?",
+      "respuesta_correcta": "La canción del padre",
+      "respuestas_incorrectas": [
+        "La tierra de mis amores",
+        "El canto de la libertad",
+        "La voz de los sin voz"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "Andrés Eloy Blanco fue un poeta y político venezolano, y su obra 'La canción del padre' es un símbolo de la lucha por la libertad."
+    },
+    {
+      "id": 162,
+      "pregunta": "¿Qué es el 'llano' en la geografía venezolana?",
+      "respuesta_correcta": "Una vasta llanura en la región central del país",
+      "respuestas_incorrectas": [
+        "Una montaña",
+        "Un río",
+        "Una ciudad"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El llano venezolano es una vasta región de tierras planas que se extiende por el centro del país, conocida por su ganadería y agricultura."
+    },
+    {
+      "id": 163,
+      "pregunta": "¿Cuál es el nombre del famoso festival de la Gaita que se celebra en diciembre en Venezuela?",
+      "respuesta_correcta": "Festival de la Gaita de Maracaibo",
+      "respuestas_incorrectas": [
+        "Festival de la Salsa",
+        "Festival Internacional de Jazz",
+        "Festival de la Música Venezolana"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "difícil",
+      "consultarIA": "El Festival de la Gaita de Maracaibo es una celebración musical que rinde homenaje a la gaita, un género musical tradicional de la región zuliana."
+    },
+    {
+      "id": 164,
+      "pregunta": "¿Qué es el 'mérida' en el contexto de la geografía venezolana?",
+      "respuesta_correcta": "Una ciudad y un estado en los Andes",
+      "respuestas_incorrectas": [
+        "Un río",
+        "Una montaña",
+        "Un tipo de café"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "Mérida es una ciudad ubicada en los Andes venezolanos, conocida por su clima templado y su universidad, que es una de las más antiguas del país."
+    },
+    {
+      "id": 165,
+      "pregunta": "¿Cuál es el nombre del famoso volcán que se encuentra en la frontera entre Venezuela y Colombia?",
+      "respuesta_correcta": "Pico de la Neblina",
+      "respuestas_incorrectas": [
+        "Pico Bolívar",
+        "Pico Humboldt",
+        "Pico Roraima"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Pico de la Neblina es la montaña más alta de Venezuela y se encuentra en la frontera con Brasil, en la región amazónica."
+    },
+    {
+      "id": 166,
+      "pregunta": "¿Qué es el 'tambo' en la cultura venezolana?",
+      "respuesta_correcta": "Un lugar de encuentro para la música y el baile",
+      "respuestas_incorrectas": [
+        "Un tipo de comida",
+        "Una danza tradicional",
+        "Un festival"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El 'tambo' es un espacio cultural donde se celebran eventos musicales y de baile, especialmente en comunidades afrovenezolanas."
+    },
+    {
+      "id": 167,
+      "pregunta": "¿Qué famoso músico venezolano es conocido por su contribución al género de la música llanera?",
+      "respuesta_correcta": "Simón Díaz",
+      "respuestas_incorrectas": [
+        "Oscar D'León",
+        "Gustavo Dudamel",
+        "José Luis Rodríguez"
+      ],
+      "categoria": "Música",
+      "dificultad": "medio",
+      "consultarIA": "Simón Díaz es un ícono de la música llanera en Venezuela, conocido por sus composiciones y su estilo único que celebra la cultura llanera."
+    },
+    {
+      "id": 168,
+      "pregunta": "¿Cuál es el nombre del famoso salto de agua en el Parque Nacional El Canaima, conocido por ser el más alto del mundo?",
+      "respuesta_correcta": "Salto Ángel",
+      "respuestas_incorrectas": [
+        "Salto de La Llovizna",
+        "Salto de los Guácharos",
+        "Salto de La Chorrera"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Salto Ángel es la cascada más alta del mundo, con una caída de 979 metros, y es una de las principales atracciones del Parque Nacional Canaima."
+    },
+    {
+      "id": 169,
+      "pregunta": "¿Qué famoso pintor es conocido por su obra 'El Hombre de Vitruvio'?",
+      "respuesta_correcta": "Oswaldo Vigas",
+      "respuestas_incorrectas": [
+        "Carlos Cruz-Diez",
+        "Armando Reverón",
+        "Alejandro Otero"
+      ],
+      "categoria": "Arte",
+      "dificultad": "medio",
+      "consultarIA": "Oswaldo Vigas fue un destacado pintor venezolano que fusionó el arte abstracto con elementos de la cultura latinoamericana."
+    },
+    {
+      "id": 170,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Mérida?",
+      "respuesta_correcta": "Festival de Música de Mérida",
+      "respuestas_incorrectas": [
+        "Festival Internacional de Jazz",
+        "Festival de la Gaita",
+        "Festival de la Salsa"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El Festival de Música de Mérida es un evento cultural que reúne a músicos de diversos géneros y promueve la música clásica y contemporánea."
+    },
+    {
+      "id": 171,
+      "pregunta": "¿Qué es el 'tambo' en la música tradicional venezolana?",
+      "respuesta_correcta": "Un tipo de tambor utilizado en la música folclórica",
+      "respuestas_incorrectas": [
+        "Un tipo de danza",
+        "Un instrumento de cuerda",
+        "Un estilo musical"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El 'tambo' es un instrumento de percusión que se utiliza en diversas tradiciones musicales folclóricas de Venezuela."
+    },
+    {
+      "id": 172,
+      "pregunta": "¿Qué tipo de clima predomina en la región de los Andes en Venezuela?",
+      "respuesta_correcta": "Clima templado",
+      "respuestas_incorrectas": [
+        "Clima tropical",
+        "Clima árido",
+        "Clima frío"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "consultarIA": "La región andina de Venezuela presenta un clima templado, ideal para el cultivo de café y otros productos agrícolas."
+    },
+    {
+      "id": 173,
+      "pregunta": "¿Cuál es el nombre del famoso río que forma parte de la frontera entre Venezuela y Guyana?",
+      "respuesta_correcta": "Río Esequibo",
+      "respuestas_incorrectas": [
+        "Río Orinoco",
+        "Río Caroní",
+        "Río Zulia"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El río Esequibo es un importante río en la región, y su cuenca es objeto de disputas territoriales entre Venezuela y Guyana."
+    },
+    {
+      "id": 174,
+      "pregunta": "¿Qué famoso evento cultural se celebra en Venezuela durante el mes de diciembre, conocido por sus gaitas?",
+      "respuesta_correcta": "La Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Festival de la Salsa",
+        "Festival Internacional de Jazz"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "La Feria de la Chinita es una celebración popular en Maracaibo que incluye música, danzas y actividades religiosas en honor a la Virgen de Chiquinquirá."
+    },
+    {
+      "id": 175,
+      "pregunta": "¿Dónde está ubicada la Plaza Bolívar más grande de Latinoamérica en Venezuela?",
+      "respuesta_correcta": "Maracay",
+      "respuestas_incorrectas": [
+        "Caracas",
+        "Valencia",
+        "Apure"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "medio",
+      "consultarIA": "La Plaza Bolívar de Maracay es conocida por su tamaño y por ser un importante punto de encuentro cultural y social en la ciudad."
+    },
+    {
+      "id": 176,
+      "pregunta": "¿Qué famoso escritor venezolano es conocido por su obra 'Los de abajo'?",
+      "respuesta_correcta": "Mariano Azuela",
+      "respuestas_incorrectas": [
+        "Rómulo Gallegos",
+        "Andrés Eloy Blanco",
+        "José Antonio Ramos Sucre"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "medio",
+      "consultarIA": "Mariano Azuela es un autor mexicano, pero su obra 'Los de abajo' es fundamental en la literatura sobre la Revolución Mexicana."
+    },
+    {
+      "id": 177,
+      "pregunta": "¿Cuál es el nombre del famoso carnaval que se celebra en la ciudad de El Callao?",
+      "respuesta_correcta": "Carnaval de El Callao",
+      "respuestas_incorrectas": [
+        "Carnaval de Maracaibo",
+        "Carnaval de Caracas",
+        "Carnaval de Valencia"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El Carnaval de El Callao es famoso por sus desfiles coloridos y su música, y es una celebración que refleja la cultura afrovenezolana."
+    },
+    {
+      "id": 178,
+      "pregunta": "¿Qué famoso autor escribió 'La casa de los espíritus'?",
+      "respuesta_correcta": "Isabel Allende",
+      "respuestas_incorrectas": [
+        "Gabriel García Márquez",
+        "Rómulo Gallegos",
+        "Mario Vargas Llosa"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "Isabel Allende es una escritora chilena cuyas obras a menudo exploran temas de realismo mágico y la historia de América Latina."
+    },
+    {
+      "id": 179,
+      "pregunta": "¿Cuál es el nombre del famoso lago que se encuentra en el estado Zulia?",
+      "respuesta_correcta": "Lago de Maracaibo",
+      "respuestas_incorrectas": [
+        "Lago de Valencia",
+        "Lago Titicaca",
+        "Lago de Cocibolca"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El Lago de Maracaibo es el lago más grande de América Latina y es conocido por su biodiversidad y su importancia económica."
+    },
+    {
+      "id": 180,
+      "pregunta": "¿Qué es el 'Cerro de la Silla' en Venezuela?",
+      "respuesta_correcta": "Una montaña icónica en el estado de Carabobo",
+      "respuestas_incorrectas": [
+        "Un parque nacional",
+        "Un río",
+        "Una ciudad"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "difícil",
+      "consultarIA": "El Cerro de la Silla es una montaña emblemática que se encuentra en el estado de Carabobo, conocida por su forma distintiva."
+    },
+    {
+      "id": 181,
+      "pregunta": "¿Cuál es el nombre del famoso festival de música tradicional que se celebra en Venezuela?",
+      "respuesta_correcta": "Festival de la Gaita",
+      "respuestas_incorrectas": [
+        "Festival de Jazz",
+        "Festival Internacional de Música",
+        "Festival de la Salsa"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "El Festival de la Gaita es una celebración musical que rinde homenaje a la gaita, un género musical tradicional de la región zuliana."
+    },
+    {
+      "id": 182,
+      "pregunta": "¿Qué famoso científico venezolano es conocido por sus estudios en botánica?",
+      "respuesta_correcta": "José María Vargas",
+      "respuestas_incorrectas": [
+        "Andrés Bello",
+        "Luis Razetti",
+        "Rafael Rangel"
+      ],
+      "categoria": "Ciencia",
+      "dificultad": "difícil",
+      "consultarIA": "José María Vargas fue un destacado médico y científico que realizó importantes contribuciones a la botánica y la salud pública en Venezuela."
+    },
+    {
+      "id": 183,
+      "pregunta": "¿Qué es la 'arepa' en la gastronomía venezolana?",
+      "respuesta_correcta": "Un alimento a base de maíz",
+      "respuestas_incorrectas": [
+        "Un tipo de postre",
+        "Una bebida",
+        "Una danza"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La arepa es un alimento tradicional venezolano hecho de masa de maíz, que se puede rellenar con una variedad de ingredientes."
+    },
+    {
+      "id": 184,
+      "pregunta": "¿Cuál es el nombre del famoso escritor venezolano conocido por su obra 'Doña Bárbara'?",
+      "respuesta_correcta": "Rómulo Gallegos",
+      "respuestas_incorrectas": [
+        "Andrés Eloy Blanco",
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "difícil",
+      "consultarIA": "Rómulo Gallegos es uno de los más grandes novelistas venezolanos, y 'Doña Bárbara' es una de sus obras más reconocidas, que retrata la lucha entre la civilización y la barbarie."
+    },
+    {
+      "id": 185,
+      "pregunta": "¿Qué famoso evento cultural se celebra en Venezuela en diciembre?",
+      "respuesta_correcta": "La Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Festival de la Salsa",
+        "Festival Internacional de Jazz"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "medio",
+      "consultarIA": "La Feria de la Chinita es una celebración popular en Maracaibo que incluye música, danzas y actividades religiosas en honor a la Virgen de Chiquinquirá."
+    },
+    {
+      "id": 186,
+      "pregunta": "¿Qué bebida típica venezolana se elabora a partir de maíz?",
+      "respuesta_correcta": "Chicha",
+      "respuestas_incorrectas": [
+        "Guarapita",
+        "Cocada",
+        "Aguapanela"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La chicha es una bebida tradicional venezolana hecha a base de maíz, que puede ser dulce o salada, y se consume en diversas festividades."
+    },
+    {
+      "id": 187,
+      "pregunta": "¿Qué famoso plato venezolano se dice que es tan bueno que puede hacer llorar a un chef?",
+      "respuesta_correcta": "Arepas",
+      "respuestas_incorrectas": [
+        "Pabellón Criollo",
+        "Hallacas",
+        "Asado Negro"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "Las arepas son un plato emblemático de Venezuela, versátiles y deliciosas, que pueden ser rellenas con una variedad de ingredientes."
+    },
+    {
+      "id": 188,
+      "pregunta": "¿Qué animal es conocido como el 'rey de la selva' en Venezuela, aunque no vive en la selva?",
+      "respuesta_correcta": "El jaguar",
+      "respuestas_incorrectas": [
+        "El puma",
+        "El león",
+        "El caimán"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "El jaguar es un gran felino que habita en diversas regiones de Venezuela, y es conocido por su fuerza y habilidades de caza."
+    },
+    {
+      "id": 189,
+      "pregunta": "¿Qué bebida típica venezolana se dice que puede hacer bailar a cualquiera?",
+      "respuesta_correcta": "Guarapita",
+      "respuestas_incorrectas": [
+        "Cocada",
+        "Tizana"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "La guarapita es una bebida popular en Venezuela, hecha a base de aguardiente y jugo de frutas, conocida por su sabor refrescante y su capacidad para animar las fiestas."
+    },
+    {
+      "id": 190,
+      "pregunta": "¿Qué famoso festival en Venezuela es conocido por sus disfraces extravagantes y su música contagiosa?",
+      "respuesta_correcta": "Carnaval de El Callao",
+      "respuestas_incorrectas": [
+        "Feria de la Chinita",
+        "Festival de la Gaita",
+        "Carnaval de Maracaibo"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "El Carnaval de El Callao es famoso por sus coloridos desfiles y la música de tambores, reflejando la rica herencia cultural afrovenezolana."
+    },
+    {
+      "id": 191,
+      "pregunta": "¿Qué famoso lugar en Venezuela es conocido por tener más de 300 días de sol al año?",
+      "respuesta_correcta": "Isla de Margarita",
+      "respuestas_incorrectas": [
+        "Los Roques",
+        "Cayo de Agua",
+        "Parque Nacional Morrocoy"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "La Isla de Margarita es un destino turístico popular en Venezuela, famosa por sus playas y su clima soleado durante todo el año."
+    },
+    {
+      "id": 192,
+      "pregunta": "¿Qué famoso artista venezolano es conocido por su música que hace bailar a todos en las fiestas?",
+      "respuesta_correcta": "Oscar D'León",
+      "respuestas_incorrectas": [
+        "Simón Díaz",
+        "Gustavo Dudamel",
+        "José Luis Rodríguez"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "Oscar D'León es un reconocido músico venezolano, famoso por su salsa y su carisma en el escenario, conocido como 'El Sonero del Mundo'."
+    },
+    {
+      "id": 193,
+      "pregunta": "¿Qué famoso evento en Venezuela se celebra con gaitas, parrandas y mucha alegría en diciembre?",
+      "respuesta_correcta": "La Feria de la Chinita",
+      "respuestas_incorrectas": [
+        "Carnaval",
+        "Festival de la Salsa",
+        "Festival Internacional de Jazz"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "La Feria de la Chinita es una celebración que combina música, danza y tradiciones religiosas en honor a la Virgen de Chiquinquirá."
+    },
+    {
+      "id": 194,
+      "pregunta": "¿Qué famoso río en Venezuela es conocido por su 'relámpago del Catatumbo'?",
+      "respuesta_correcta": "Río Catatumbo",
+      "respuestas_incorrectas": [
+        "Río Orinoco",
+        "Río Caroní",
+        "Río Zulia"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El río Catatumbo es famoso por el fenómeno natural conocido como 'relámpago del Catatumbo', que produce tormentas eléctricas casi constantes."
+    },
+    {
+      "id": 195,
+      "pregunta": "¿Qué famoso lugar en Venezuela es conocido por ser el hogar de la mayor biodiversidad del mundo?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Los Roques",
+        "Parque Nacional Morrocoy",
+        "Parque Nacional Henri Pittier"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "El Parque Nacional Canaima es un área protegida que alberga una gran diversidad de flora y fauna, así como paisajes impresionantes."
+    },
+    {
+      "id": 196,
+      "pregunta": "¿Qué famoso baile tradicional venezolano se dice que puede hacer que hasta los más tímidos se suelten?",
+      "respuesta_correcta": "Joropo",
+      "respuestas_incorrectas": [
+        "Merengue",
+        "Salsa",
+        "Tango"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "El joropo es un baile tradicional venezolano que combina música y danza, y es conocido por su ritmo animado y su energía contagiosa."
+    },
+    {
+      "id": 197,
+      "pregunta": "¿Qué famoso monumento en Venezuela es conocido como el 'Ángel de la Paz'?",
+      "respuesta_correcta": "El Ávila",
+      "respuestas_incorrectas": [
+        "El Salto Ángel",
+        "El Cristo de la Paz",
+        "La Torre de David"
+      ],
+      "categoria": "Geografía",
+      "dificultad": "fácil",
+      "consultarIA": "El Ávila es una montaña emblemática que rodea Caracas y es un símbolo de la ciudad, conocido por su belleza natural."
+    },
+    {
+      "id": 198,
+      "pregunta": "¿Qué famoso evento deportivo se celebra anualmente en Venezuela y atrae a miles de corredores?",
+      "respuesta_correcta": "Maratón de Caracas",
+      "respuestas_incorrectas": [
+        "Maratón de Maracaibo",
+        "Carrera de la Amistad",
+        "Maratón de Valencia"
+      ],
+      "categoria": "Deportes",
+      "dificultad": "fácil",
+      "consultarIA": "El Maratón de Caracas es un evento deportivo que reúne a corredores de diversas partes del mundo y promueve el deporte en la capital."
+    },
+    {
+      "id": 199,
+      "pregunta": "¿Qué famoso plato venezolano se elabora con carne, frijoles negros, arroz y plátano frito?",
+      "respuesta_correcta": "Pabellón Criollo",
+      "respuestas_incorrectas": [
+        "Arepas",
+        "Hallacas",
+        "Asado Negro"
+      ],
+      "categoria": "Gastronomía",
+      "dificultad": "fácil",
+      "consultarIA": "El pabellón criollo es considerado el plato nacional de Venezuela, y combina sabores y tradiciones de diversas regiones del país."
+    },
+    {
+      "id": 200,
+      "pregunta": "¿Qué famoso evento musical se celebra en Venezuela y reúne a artistas de salsa y música tropical?",
+      "respuesta_correcta": "Festival de la Salsa",
+      "respuestas_incorrectas": [
+        "Festival de la Gaita",
+        "Festival Internacional de Jazz",
+        "Festival de la Música Llanera"
+      ],
+      "categoria": "Música",
+      "dificultad": "fácil",
+      "consultarIA": "El Festival de la Salsa es un evento que celebra la música tropical y reúne a artistas de renombre, promoviendo la cultura musical venezolana."
+    },
+    {
+      "id": 201,
+      "pregunta": "¿Qué famoso lugar en Venezuela es conocido por sus impresionantes playas y aguas cristalinas?",
+      "respuesta_correcta": "Los Roques",
+      "respuestas_incorrectas": [
+        "Isla de Margarita",
+        "Parque Nacional Morrocoy",
+        "Cayo de Agua"
+      ],
+      "categoria": "Turismo",
+      "dificultad": "fácil",
+      "consultarIA": "Los Roques es un archipiélago famoso por sus playas de arena blanca y aguas turquesas, ideal para el turismo y la práctica de deportes acuáticos."
+    },
+    {
+      "id": 202,
+      "pregunta": "¿Qué famoso escritor venezolano es conocido por su obra 'Doña Bárbara'?",
+      "respuesta_correcta": "Rómulo Gallegos",
+      "respuestas_incorrectas": [
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa",
+        "Andrés Eloy Blanco"
+      ],
+      "categoria": "Literatura",
+      "dificultad": "fácil",
+      "consultarIA": "Rómulo Gallegos es uno de los más grandes novelistas venezolanos, y 'Doña Bárbara' es una de sus obras más reconocidas, que retrata la lucha entre la civilización y la barbarie."
+    },
+    {
+      "id": 203,
+      "pregunta": "¿Qué famoso baile tradicional venezolano se caracteriza por su ritmo rápido y el uso de arpa, cuatro y maracas?",
+      "respuesta_correcta": "Joropo",
+      "respuestas_incorrectas": [
+        "Merengue",
+        "Salsa",
+        "Bachata"
+      ],
+      "categoria": "Cultura",
+      "dificultad": "fácil",
+      "consultarIA": "El joropo es un baile tradicional venezolano que se caracteriza por su ritmo rápido y el uso de instrumentos como el arpa, el cuatro y las maracas, reflejando la cultura llanera del país."
+    },
+    {
+      "id": 204,
+      "pregunta": "¿Qué famoso lugar en Venezuela es conocido por sus tepuyes y su biodiversidad única?",
+      "respuesta_correcta": "Parque Nacional Canaima",
+      "respuestas_incorrectas": [
+        "Parque Nacional Morrocoy",
+        "Los Roques",
+        "Parque Nacional Henri Pittier"
+      ],
+      "categoria": "Naturaleza",
+      "dificultad": "fácil",
+      "consultarIA": "El Parque Nacional Canaima es famoso por sus impresionantes tepuyes, que son mesetas de roca, y su rica biodiversidad, siendo un destino popular para el ecoturismo."
+    }
+  ]
+}

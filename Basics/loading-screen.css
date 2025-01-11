@@ -1,0 +1,47 @@
+.pantalla-carga {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      135deg,
+      #121212 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      #121212 50%,
+      #121212 75%,
+      #1a1a1a 75%,
+      #1a1a1a
+  );
+  background-size: 40px 40px;
+  animation: mover 4s linear infinite;
+}
+
+@keyframes mover {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 40px 40px;
+  }
+}
+
+.pantalla-carga-imagen {
+  width: 300px;
+  height: 300px;
+  animation: girar 1.5s linear infinite, escalar 1.5s ease-in-out infinite;
+}
+
+@keyframes escalar {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+}

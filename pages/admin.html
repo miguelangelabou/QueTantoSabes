@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../imgs/imgLogo.png" />
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="../Basics/footer.css" />
+  <link rel="stylesheet" href="../Basics/header.css" />
+  <link rel="stylesheet" href="../Basics/html-design.css" />
+  <link rel="stylesheet" href="../Basics/loading-screen.css" />  
+  <link rel="stylesheet" href="../cssPages/admin.css" />
+
+  <!-- Script de funciones -->
+  <script src="../Js/functions.js" defer></script>
+  <script src="../Js/auth.js" defer></script>
+  <script src="../Js/admin.js" defer></script>
+
+  <title>¿Qué tanto sabes? - Perfil</title>
+</head>
+
+<body>
+  <!-- PESTAÑA DE CARGA -->
+  <div id="pantalla-carga" class="pantalla-carga">
+    <div class="pantalla-carga">
+       <img src="../imgs/imgLogo.png" class="pantalla-carga-imagen">
+    </div>
+  </div>
+  
+  <div class="fondo-main" id="contenido">
+    <div class="contenido">      
+
+      <!-- HEADER -->
+      <div id="header"></div>
+      <script>
+        fetch('../Basics/header.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('header').innerHTML = data);
+      </script>
+
+      <!-- MAIN -->
+      <main>
+        <div class="titulo-admin">Interfaz de Administrador</div>
+        <div class="input-buscar">
+          <input type="text" class="input" id="identificador" placeholder="ID, Email, Telefono">
+          <button type="submit" id="input-buscar" class="boton-enviar">Buscar</button>
+        </div>
+        <label class="error" id="noEncontrado">Usuario no encontrado.</label>
+        <label class="error" id="errorBD">Estamos teniendo problemas inesperados, por favor intentelo de nuevo en unos minutos.</label>
+
+        
+        <div class="titulo-admin">Perfil del Jugador</div>
+        <div class="contenedor">
+          <div class="avatar-contenedor">
+            <div class="avatar-usuario">
+              <img id="foto-usuario" alt="Perfil">
+            </div>
+          </div>
+
+          <div>
+            <div class="contenedor-perfil">
+              <div id="nombre-usuario" class="nombre">Esperando...</div>
+              <div class="dato" id="id-usuario">ID: Esperando...</div>              
+            </div>
+
+            <div class="tabla-datos">
+              <div class="dato" id="email-usuario">Esperando...</div>
+              <div class="dato" id="telefono-usuario">Esperando...</div>
+              <div class="dato" id="nacimiento-usuario">Esperando...</div>
+              <div class="dato" id="registro-usuario">Esperando...</div>
+              <div class="dato" id="ultimaSesion-usuario">Esperando...</div>
+              <div class="dato" id="victorias-usuario">Esperando...</div>
+              <div class="dato" id="derrotas-usuario">Esperando...</div>
+              <div class="dato" id="partidas-usuario">Esperando...</div>
+              <div class="dato" id="puntos-usuario">Esperando...</div>
+              <div class="dato" id="preguntaNro-usuario">Esperando...</div>
+              <div class="dato" id="tiempoRecord-usuario">Esperando...</div>
+              <div class="dato" id="posicionTop-usuario">Esperando...</div>
+              <div class="dato" id="estatus-usuario">Esperando...</div>
+              <div class="dato" id="nivel-usuario">Esperando...</div>  
+            </div>
+            
+            <div class="tabla-botones">
+              <div class="error" id="error-adminNoManipulable">No se puede manipular la cuenta de un administrador.</div>
+              <button class="boton" id="boton-toggleNivel">Administrador / Usuario</button>              
+              <button class="boton" id="boton-activar-inactivar">Activar / Inactivar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="titulo-admin">Partida guardada</div>        
+        <div class="contenedor-sub">
+          <div class="tabla-datos-partida">
+            <div class="dato" id="error-noTienePartida">No tiene una partida guardada el jugador...</div>
+            <div class="dato" id="partida-pregunta">Esperando...</div>
+            <div></div>
+            <div class="dato" id="partida-preguntasLista">Esperando...</div>
+            <div></div>
+            <div class="dato" id="partida-puntos">Esperando...</div>
+            <div class="dato" id="partida-cronometro">Esperando...</div>
+            <div class="dato" id="partida-preguntaNumero">Esperando...</div>
+            <div class="dato" id="partida-tiempo">Esperando...</div>
+            <div class="dato" id="partida-comodines">Esperando...</div>
+            <div class="dato" id="partida-vidas">Esperando...</div>
+          </div>
+            
+            
+          <div class="tabla-botones-partida">
+            <div class="error" id="error-adminNoManipulable-partida">No se puede manipular la cuenta de otro administrador.</div>            
+            <button class="boton" id="boton-borrarPartida">Borrar partida</button>              
+          </div>
+        </div>
+        
+        <div class="titulo-admin">Buscar pregunta</div>
+        <div class="input-buscar">
+          <input type="number" class="input" id="id-pregunta" placeholder="ID">
+          <button type="submit" id="buscarPregunta" class="boton-enviar">Buscar</button>
+        </div>
+        <label class="error" id="error-preguntaNoEncontrada">Pregunta no encontrada.</label>
+        <label class="error" id="errorSolicitud">Estamos teniendo problemas inesperados, por favor intentelo de nuevo en unos minutos.</label>
+        
+        <div class="contenedor-sub">
+          <div class="contenedor-buscarPregunta">
+            <div class="dato" id="pregunta_nombre">Esperando...</div>
+            <div class="dato" id="dificultad">Esperando...</div>
+            <div class="dato" id="respuestas_incorrectas">Esperando...</div>
+            <div class="dato" id="categoria">Esperando...</div>
+            <div class="dato" id="respuesta_correcta">Esperando...</div>
+            <div class="dato" id="consultarIA">Esperando...</div>
+          </div>
+        </div>
+        
+        <div class="contenedor-accionesUsuario">
+          <div  class="titulo-admin">Acciones del Usuario</div>
+          <button class="recargar-acciones" id="boton-recargarAcciones"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24px" height="24px" stroke-width="2"><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path></svg></button>
+          <div id="contenedor-accionesUsuario">
+            <p class="dato" id="error-sinRegistros">No hay registros del usuario...</p>
+            <div class="dato" id="registros"></div>
+          </div>
+        </div>
+      </main>
+      
+
+      <!-- FOOTER -->
+      <div id="footer"></div>
+      <script>
+        fetch('../Basics/footer.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('footer').innerHTML = data);
+      </script>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+footer {
+  font-size: 10px;
+  background-color: #333333;
+  color: white;
+  padding: 20px 0;
+}
+
+footer div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222222;
+}
+
+footer a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+@media (min-width: 320px) {
+  footer {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    font-size: 13px;
+  }
+}
