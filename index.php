@@ -174,7 +174,7 @@ function manejarRegistro($conn, $web) {
     $foto_perfil_random = $imagenes[$randomIndex];
     $numeroTelefonico = "+" . $codigoTelefonico . " " . $telefono;
 
-    $sql = 'INSERT INTO usuarios_tbl (nombre_completo, telefono, fecha_nacimiento, email, contrasena, foto_perfil, nivel, estatus) VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
+    $sql = 'INSERT INTO jugadores_tbl (nombre_completo, telefono, fecha_nacimiento, email, contrasena, foto_perfil, nivel, estatus) VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
     $valores = [$usuario, $numeroTelefonico, $fecha_nacimiento, $email, $contrasenaCrypt, $foto_perfil_random, 'USUARIO', 'ACTIVO'];
 
     try {
@@ -201,7 +201,7 @@ function manejarVerificarEmailTelefono($conn, $web) {
 
     error_log("Verificando email: $email y teléfono: $telefono");
 
-    $query = 'SELECT * FROM usuarios_tbl WHERE email = ? OR telefono = ?';
+    $query = 'SELECT * FROM jugadores_tbl WHERE email = ? OR telefono = ?';
     $results = ejecutarConsulta($conn, $query, [$email, $telefono]);
 
     if ($results->num_rows > 0) {
@@ -227,7 +227,7 @@ function manejarLogin($conn, $web) {
         $token = generarToken(['id' => $usuario['id']]);
         setcookie('token', $token, time() + 18000, '/', '', true, false);
 
-        ejecutarConsulta($conn, "UPDATE usuarios_tbl SET ultima_sesion = CURRENT_TIMESTAMP WHERE email = ?", [$email]);
+        ejecutarConsulta($conn, "UPDATE jugadores_tbl SET ultima_sesion = CURRENT_TIMESTAMP WHERE email = ?", [$email]);
         registrarAccion($conn, $usuario['id'], "Inicio sesión.", $ip, "Se modifico la ultima sesion del usuario.");
 
         echo json_encode(['cuentaExistente' => true, 'datos' => true]);
@@ -253,7 +253,7 @@ function manejarTokenSesion($conn, $web) {
         }
 
         $id = $descifrado['id'];
-        $query = 'SELECT * FROM usuarios_tbl WHERE id = ?';
+        $query = 'SELECT * FROM jugadores_tbl WHERE id = ?';
         $results = ejecutarConsulta($conn, $query, [$id]);
 
         if ($results->num_rows <= 0) {
@@ -280,7 +280,7 @@ function manejarTokenSesion($conn, $web) {
 }
 
 function obtenerUsuarioPorEmail($conn, $email) {
-    $query = 'SELECT * FROM usuarios_tbl WHERE email = ?';
+    $query = 'SELECT * FROM jugadores_tbl WHERE email = ?';
     $result = ejecutarConsulta($conn, $query, [$email]);
     return $result->num_rows > 0 ? $result->fetch_assoc() : null;
 }
@@ -292,7 +292,7 @@ function manejarBuscarUsuario($conn, $web) {
         return;
     }
 
-    $sql = 'SELECT * FROM usuarios_tbl WHERE id = ? OR email = ? OR telefono = ?;';
+    $sql = 'SELECT * FROM jugadores_tbl WHERE id = ? OR email = ? OR telefono = ?;';
     $results = ejecutarConsulta($conn, $sql, [$identificacion, $identificacion, $identificacion]);
 
     if ($results->num_rows <= 0) {
@@ -312,7 +312,7 @@ function manejarBuscarUsuario($conn, $web) {
 
     $descifrado = jwt_decode($web['token']);
     $id = $descifrado['id'];
-    $admin = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$id])->fetch_assoc();
+    $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
 
     registrarAccion($conn, $admin['id'], "Se solicitó información sobre el usuario: " . $usuario['nombre_completo'] . " (ID: " . $usuario['id'] . ").", $_SERVER['REMOTE_ADDR'], "Se buscó información sobre dicho usuario en la base de datos.");
 
@@ -437,7 +437,7 @@ function manejarEstadisticasJugador($conn, $web) {
 
     for ($i = 0; $i < $listaTOP10->num_rows; $i++) {
         $usuarioStats = $listaTOP10->fetch_assoc();
-        $queryUsuario = "SELECT * FROM usuarios_tbl WHERE id = ?;";
+        $queryUsuario = "SELECT * FROM jugadores_tbl WHERE id = ?;";
         $usuario = ejecutarConsulta($conn, $queryUsuario, [$usuarioStats['id_jugador']])->fetch_assoc();
         if ($usuario['estatus'] !== "INACTIVO") {
             $listaTop10Valido[] = [
@@ -489,13 +489,13 @@ function manejarInactivarUsuario($conn, $web) {
     $identificacion = $web['identificacion'];
     if (!$identificacion) return;
 
-    $sql = "UPDATE usuarios_tbl SET estatus = CASE WHEN estatus = 'ACTIVO' THEN 'INACTIVO' WHEN estatus = 'INACTIVO' THEN 'ACTIVO' END WHERE id = ?;";
+    $sql = "UPDATE jugadores_tbl SET estatus = CASE WHEN estatus = 'ACTIVO' THEN 'INACTIVO' WHEN estatus = 'INACTIVO' THEN 'ACTIVO' END WHERE id = ?;";
     ejecutarConsulta($conn, $sql, [$identificacion]);
 
     $descifrado = jwt_decode($web['token']);
     $id = $descifrado['id'];
-    $usuario = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$identificacion])->fetch_assoc();
-    $admin = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$id])->fetch_assoc();
+    $usuario = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$identificacion])->fetch_assoc();
+    $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
 
     registrarAccion($conn, $admin['id'], "Se actualizó el estado a '" . ($web['estado'] === 'ACTIVO' ? 'INACTIVO' : 'ACTIVO') . "' al usuario: " . $usuario['nombre_completo'] . " (" . $usuario['id'] . ").", $_SERVER['REMOTE_ADDR'], "El administrador ha activado o desactivado una cuenta de la tabla 'usuarios'.");
     echo json_encode(['success' => true, 'message' => 'Usuario inactivado.']);
@@ -505,13 +505,13 @@ function manejarModificarNivel($conn, $web) {
     $identificacion = $web['identificacion'];
     if (!$identificacion) return;
 
-    $sql = "UPDATE usuarios_tbl SET nivel = CASE WHEN nivel = 'ADMIN' THEN 'USUARIO' WHEN nivel = 'USUARIO' THEN 'ADMIN' ELSE nivel END WHERE id = ?;";
+    $sql = "UPDATE jugadores_tbl SET nivel = CASE WHEN nivel = 'ADMIN' THEN 'USUARIO' WHEN nivel = 'USUARIO' THEN 'ADMIN' ELSE nivel END WHERE id = ?;";
     ejecutarConsulta($conn, $sql, [$identificacion]);
 
     $descifrado = jwt_decode($web['token']);
     $id = $descifrado['id'];
-    $usuario = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$identificacion])->fetch_assoc();
-    $admin = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$id])->fetch_assoc();
+    $usuario = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$identificacion])->fetch_assoc();
+    $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
 
     registrarAccion($conn, $admin['id'], "Se modificó el nivel de cuenta a '" . ($web['nivel'] === 'ADMIN' ? 'USUARIO' : 'ADMIN') . "' usuario: " . $usuario['nombre_completo'] . " (" . $usuario['id'] . ").", $_SERVER['REMOTE_ADDR'], "El administrador ha modificado el nivel de un usuario en la tabla 'usuarios'.");
     echo json_encode(['success' => true, 'message' => 'Usuario modificado.']);
@@ -553,8 +553,8 @@ function manejarBuscarPartida($conn, $web) {
 
             $descifrado = jwt_decode($token);
             $id = $descifrado['id'];
-            $admin = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?;", [$id])->fetch_assoc();
-            $usuario = ejecutarConsulta($conn, "SELECT * FROM usuarios_tbl WHERE id = ?", [$idUsuarioADMIN])->fetch_assoc();
+            $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
+            $usuario = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?", [$idUsuarioADMIN])->fetch_assoc();
 
             registrarAccion($conn, $admin['id'], "Se eliminó la partida del usuario: " . $usuario['nombre_completo'] . " (" . $usuario['id'] . ").", $ip, "El administrador ha eliminado una partida de la tabla 'partidaGuardada'.");
             echo json_encode(['success' => true, 'message' => 'Partida eliminada.']);
