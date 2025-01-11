@@ -687,6 +687,65 @@ function buscarPregunta($conn, $data) {
     }
 }
 
+function preguntaRandom($conn, $data) {
+    $id = $data['id'];
+    $preguntaNRO = $data['preguntaNro'];
+    $numerosUsados = $data['numerosUsados'];
+    
+    $nivel = ($preguntaNRO < 5) ? "fácil" : (($preguntaNRO < 10) ? "medio" : "difícil");
+
+    if ($id === null) {
+        $sql = "SELECT * FROM preguntas_trivia_tbl WHERE dificultad = ?";
+
+        if (!empty($numerosUsados)) {
+            $numerosUsadosStr = implode(',', array_map('intval', $numerosUsados)); // Convertir a string para la consulta
+            $sql .= " AND id NOT IN ($numerosUsadosStr)";
+        }
+
+        $sql .= " ORDER BY RAND() LIMIT 1";
+        $result = ejecutarConsulta($conn, $sql, [$nivel]);
+
+        if ($result->num_rows > 0) {
+            $preguntaSeleccionada = $result->fetch_assoc(); // Obtener la pregunta
+            $numerosUsados[] = $preguntaSeleccionada['id'];
+
+            echo json_encode([
+                'numerosUsados' => $numerosUsados,
+                'id' => $preguntaSeleccionada['id'],
+                'pregunta' => $preguntaSeleccionada['pregunta'],
+                'respuesta_correcta' => $preguntaSeleccionada['respuesta_correcta'],
+                'respuestas_incorrectas' => json_decode($preguntaSeleccionada['respuestas_incorrectas']),
+                'categoria' => $preguntaSeleccionada['categoria'],
+                'dificultad' => $preguntaSeleccionada['dificultad'],
+                'consultarIA' => $preguntaSeleccionada['consultarIA'],
+            ]);
+            return;
+        }
+    } else {
+        $sql = "SELECT * FROM preguntas_trivia_tbl WHERE id = ?";
+        $result = ejecutarConsulta($conn, $sql, [$id]);
+
+        if ($result->num_rows > 0) {
+            $pregunta = $result->fetch_assoc(); // Obtener la pregunta
+
+            echo json_encode([
+                'numerosUsados' => $numerosUsados,
+                'id' => $pregunta['id'],
+                'pregunta' => $pregunta['pregunta'],
+                'respuesta_correcta' => $pregunta['respuesta_correcta'],
+                'respuestas_incorrectas' => json_decode($pregunta['respuestas_incorrectas']),
+                'categoria' => $pregunta['categoria'],
+                'dificultad' => $pregunta['dificultad'],
+                'consultarIA' => $pregunta['consultarIA'],
+            ]);
+            return;
+        } else {
+            echo json_encode(['error' => 'No se encontró la pregunta con el ID proporcionado.']);
+            return;
+        }
+    }
+}
+
 // Manejo de solicitudes POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
@@ -750,6 +809,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 buscarPregunta($conn, $web);
                 break;
 
+            case 'preguntaRandom':
+                preguntaRandom($conn, $web);
+                break;
+
             default:
                 echo json_encode(['success' => false, 'message' => 'Acción no reconocida.']);
                 break;
@@ -761,7 +824,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
         $requestUri = $_SERVER['REQUEST_URI'];
         if ($requestUri === '/' || $requestUri === '/quetantosabes/' || $requestUri === '/quetantosabes/index.php') {
-
             /*
             ALMACENAR TODAS LAS PREGUNTAS DEL ARCHIVO JSON A LA BASE DE DATOS
 

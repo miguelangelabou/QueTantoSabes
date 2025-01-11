@@ -58,6 +58,7 @@ main {
 }
 
 .contenedor {
+  max-width: 83%;
   background-color: #ffffff;
   min-width: 40%;
   display: flex;
@@ -70,6 +71,7 @@ main {
 }
 
 .contenedor-sub {
+  max-width: 83%;
   background-color: #ffffff;
   min-width: 40%;
   display: flex;
@@ -226,6 +228,7 @@ main {
 }
 
 #contenedor-accionesUsuario {
+  max-width: 83%;
   background-color: white;
   border: 2px solid gray;
   border-radius: .5rem;

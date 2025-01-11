@@ -176,27 +176,43 @@ const ocultarPartidaGuardada = () => {
 // LISTADO DE ACCIONES DEL USUARIO
 // -----------------------------------------------------------------------------------
 const cargarAccionesUsuario = async (identificacion) => {
-  const accionesUsuarioFetch = await fetchData('accionesDeUsuario', { identificacion });
+  const registrosContainer = document.getElementById("registros");
 
+  document.getElementById("error-sinIdentificador").style.display = "none";
   document.getElementById("error-sinRegistros").style.display = "none";
   document.getElementById("registros").style.display = "block";
-  document.getElementById("registros").innerHTML = "";
   document.getElementById("boton-recargarAcciones").style.display = "flex";
+  registrosContainer.innerHTML = "";
+
+  if (!identificacion) {
+    document.getElementById("error-sinIdentificador").style.display = "block";
+    return;
+  }  
+
+  const accionesUsuarioFetch = await fetchData('accionesDeUsuario', { identificacion });
 
   if (accionesUsuarioFetch.length === 0) {
     document.getElementById("error-sinRegistros").style.display = "block";
     return;
   }
 
+  const fragment = document.createDocumentFragment();
+
   accionesUsuarioFetch.reverse().forEach(accion => {
-    document.getElementById("registros").innerHTML += `
-      <hr>
+    const hr = document.createElement('hr');
+    const accionDiv = document.createElement('div');
+    accionDiv.innerHTML = `
       ID: ${accion.id_accion}<br>
       Descripción: ${accion.accion}<br>
       IP: ${accion.ip_usuario}<br>
       Fecha: ${new Date(accion.fecha_accion).toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })} (UTC)<br>
-      <hr>`;
+    `;
+    fragment.appendChild(hr);
+    fragment.appendChild(accionDiv);
   });
+
+  // Agregar el fragmento al DOM de una sola vez
+  registrosContainer.appendChild(fragment);
 };
 
 // ----------------------------------------------------------------------------------

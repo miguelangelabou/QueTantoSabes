@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   let puntos = 0;
   let pregunta;
   let preguntaId;
-  let nivel;
   let vidas = 3;
   let contadorTiempo;
   let tiempoPartida;
@@ -45,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await fetchData('guardarPartida', {
       token,
       preguntaNro,
-      preguntaId: preguntaId - 1,
+      preguntaId: preguntaId,
       vidas,
       puntos,
       numerosUsados,
@@ -141,8 +140,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById("game-win").style.display = "none";
       document.getElementById('contenedor-menu').style.display = "flex";
       document.getElementById('partida').style.display = "none";
-      document.getElementById("partida").style.paddingTop = "100px";
-      document.getElementById("partida").style.paddingBottom = "0px"; 
+      document.getElementById("partida").style.paddingTop = "140px";
+      document.getElementById("partida").style.paddingBottom = "140px"; 
       mejorPartida();
     }, 5000);
   }
@@ -204,7 +203,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ----------------------------------------------------------------------------------
   // FUNCION DE CARGAR PREGUNTA DE PREGUNTAS.JSON
   // -----------------------------------------------------------------------------------  
-  async function cargarPreguntas(idPreguntaDB, tiempoPregunta) {
+  async function cargarPreguntas(id_pregunta, tiempoPregunta) {
     const botones = document.querySelectorAll('.boton');
     botones.forEach(boton => boton.style.display = "block");
 
@@ -213,34 +212,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       numerosUsados = JSON.parse(numerosUsados);
     }
 
-    // Determinar el nivel de dificultad
-    nivel = (preguntaNro < 5) ? "fácil" : (preguntaNro < 10) ? "medio" : "difícil";
-
-    let numero;
-    /*if (idPreguntaDB === null) {
-      do {
-        numero = Math.floor(Math.random() * 204);
-      } while (numerosUsados.includes(numero) || await fetchData('buscarPregunta', { id: numero }).dificultad !== nivel);
-      numerosUsados.push(numero);
-    } else {
-      numero = idPreguntaDB;
-    }*/
-
-    const data = await fetchData('buscarPregunta', { id: numero });
-
     // Limpiar el temporizador anterior si existe
     if (intervalo) {
       clearInterval(intervalo);
     }
-
-    // Establecer el tiempo de la pregunta
-    contadorTiempo = tiempoPregunta === null ? 60 : tiempoPregunta;
-
-    // Obtener la pregunta y opciones
-    pregunta = data;
-    preguntaId = pregunta.id;
-    respuestaCorrecta = pregunta.respuesta_correcta;
-
 
     function opcionRandom() {
       const array = ["opcion1", "opcion2", "opcion3", "opcion4"];
@@ -251,15 +226,21 @@ document.addEventListener('DOMContentLoaded', async () => {
       return array;
     }
     
-    const posicion = ["opcion1", "opcion2", "opcion3", "opcion4"];//opcionRandom();
     preguntaNro++;
-    pregunta = data.trivia[numero];
+
+    const posicion = ["opcion1", "opcion2", "opcion3", "opcion4"];//opcionRandom();
+    const data = await fetchData('preguntaRandom', { id: id_pregunta, preguntaNro, numerosUsados });
+    console.log('Respuesta de fetchData:', data);
+
+    pregunta = data;
+    numerosUsados = data.numerosUsados;
+    contadorTiempo = tiempoPregunta === null ? 60 : tiempoPregunta;
     consultarIA = pregunta.consultarIA;
     preguntaId = pregunta.id;
     correcta = posicion[0];
     opcionBorrar1 = posicion[1];
     opcionBorrar2 = posicion[2];
-    respuestaCorrecta = posicion[0]; // Almacenar la respuesta correcta
+    respuestaCorrecta = posicion[0];
 
     // Limpiar la interfaz de usuario
     document.getElementById('consultarIA').textContent = '';
