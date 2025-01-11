@@ -106,7 +106,8 @@ function registrarAccion($conn, $usuarioId, $accion, $ip, $sqlAccion) {
     ]);
 }
 
-function almacenarPreguntas($conn, $preguntas) {
+/*function almacenarPreguntas($conn, $preguntas) {
+    
     foreach ($preguntas as $pregunta) {
         $id = $pregunta['id'];
         $pregunta_texto = $pregunta['pregunta'];
@@ -123,7 +124,30 @@ function almacenarPreguntas($conn, $preguntas) {
         
         ejecutarConsulta($conn, $sql, $valores);
     }
-}
+
+    $valores = []; // Array para almacenar los valores de las preguntas
+    $sql = "INSERT INTO preguntas_trivia_tbl (id, pregunta, respuesta_correcta, respuestas_incorrectas, categoria, dificultad, consultarIA) VALUES \n";
+
+    foreach ($preguntas as $index => $pregunta) {
+        $id = $pregunta['id'];
+        $pregunta_texto = $pregunta['pregunta'];
+        $respuesta_correcta = $pregunta['respuesta_correcta'];
+        $respuestas_incorrectas = json_encode($pregunta['respuestas_incorrectas']);
+        $categoria = $pregunta['categoria'];
+        $dificultad = $pregunta['dificultad'];
+        $consultarIA = $pregunta['consultarIA'];
+
+        // Agregar los valores a la lista
+        $valores[] = "($id, \"$pregunta_texto\", \"$respuesta_correcta\", \"$respuestas_incorrectas\", \"$categoria\", \"$dificultad\", \"$consultarIA\")";
+    }
+
+    // Unir todos los valores en una sola cadena, separando por comas y añadiendo saltos de línea
+    $sql .= implode(",<br>", $valores) . ";";
+
+    // Mostrar la consulta con echo
+    echo $sql; // Imprime la consulta
+
+}*/
 
 function manejarRegistro($conn, $web) {
     $usuario = $web['usuario'];
@@ -827,10 +851,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             /*
             ALMACENAR TODAS LAS PREGUNTAS DEL ARCHIVO JSON A LA BASE DE DATOS
 
-            $json_data = file_get_contents('js/preguntas.json');
+            $json_data = file_get_contents('preguntas.json');
             $data = json_decode($json_data, true);
-            almacenarPreguntas($conn, $data['trivia']);
-            */
+            almacenarPreguntas($conn, $data['trivia']);*/
+            
 
             header('Location: pages/inicio.html');
             exit;
