@@ -261,7 +261,7 @@ document.getElementById('boton-borrarPartida').addEventListener('click', async f
 // -----------------------------------------------------------------------------------
 document.getElementById('buscarPregunta').addEventListener('click', async function() {
   const identificacion = document.getElementById("id-pregunta").value;
-  if (!identificacion || isNaN(identificacion)  || identificacion > 204 ||  identificacion < 1) {
+  if (!identificacion || isNaN(identificacion)) {
     document.getElementById("error-preguntaNoEncontrada").style.display = "block";
     return;
   }
@@ -269,7 +269,7 @@ document.getElementById('buscarPregunta').addEventListener('click', async functi
   try {
     const pregunta = await fetchData('buscarPregunta', { id: identificacion});
 
-    if (!pregunta) {
+    if (!pregunta.existe) {
       document.getElementById("error-preguntaNoEncontrada").style.display = "block";
       return;
     }

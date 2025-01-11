@@ -14,15 +14,16 @@
   height: 10px; 
   background-color: #ffff00; 
   opacity: 0.8;
+  z-index: 1500;
   animation: movimiento 3s forwards; 
 }
 
 @keyframes movimiento {
     0% {
-        transform: translateY(0) rotate(0);
+      transform: translateY(0) rotate(0);
     }
     100% {
-        transform: translateY(100vh) rotate(360deg); /* Caída y rotación */
+      transform: translateY(calc(150vh + 50px)) rotate(360deg); /* Caída y rotación */
     }
 }
 

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   let tiempoPartida;
   let opcionBorrar1, opcionBorrar2;
   let perdio = false;
-  let startTime;
+  let inicioCronometro;
   let consultarIA;
 
   const corazones = [
@@ -57,17 +57,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ----------------------------------------------------------------------------------
   // FUNCION DE INCIAR CONTADOR DE PARTIDA
   // -----------------------------------------------------------------------------------
-  function startTimer() {
-    startTime = new Date().toISOString();
-    return startTime
+  function iniciarCronometro() {
+    inicioCronometro = new Date().toISOString();
+    return inicioCronometro
   }
 
   // ----------------------------------------------------------------------------------
   // FUNCION DE FINALIZAR Y CALCULAR TIEMPO DE PARTIDA
   // -----------------------------------------------------------------------------------
-  function endTimer() {
-    const endTime = new Date().toISOString();
-    const cronometro = new Date(endTime) - new Date(startTime);
+  function finalizarCronometro() {
+    const resultadoCronometro = new Date().toISOString();
+    const cronometro = new Date(resultadoCronometro) - new Date(inicioCronometro);
     tiempoPartida = cronometro / 1000;
     return tiempoPartida;
   }
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     clearInterval(intervalo);
     document.getElementById("game-over").style.display = "block";
-    endTimer();
+    finalizarCronometro();
 
     try {
       await fetchData('buscarPartida', { token, borrar: true });
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       puntos++;
       if (preguntaNro >= 15) {
-        endTimer();
+        finalizarCronometro();
         document.getElementById("puntos").textContent = `PUNTOS: ${puntos}  |`;        
         return win();
       }
@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // FUNCION DE INICIAR JUEGO CON cargarPreguntas() y manejarBotones()
   // -----------------------------------------------------------------------------------
   async function iniciarJuego(idPregunta, tiempoPregunta) {
-    startTimer(); 
+    iniciarCronometro(); 
     await cargarPreguntas(idPregunta, tiempoPregunta);
     manejarBotones();
   }
@@ -611,7 +611,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // -----------------------------------------------------------------------------------  
   window.onbeforeunload = function() {
     if (document.getElementById('partida').style.display === "flex" && !perdio) {
-      endTimer();
+      finalizarCronometro();
       guardarPartida(); // Espera a que se guarde la partida
     }
   };

@@ -12,10 +12,20 @@ if (window.location.pathname === '/quetantosabes') {
 // ----------------------------------------------------------------------------------
 // ABRIR MENU DESPLEGABLE (PERFIL)
 // ----------------------------------------------------------------------------------
-function botonPerfil() {
+function botonPerfil(event) {
+  event.stopPropagation(); 
   let perfil = document.getElementById('perfil');
   perfil.style.display = (perfil.style.display === 'none' || perfil.style.display === '') ? 'block' : 'none';
 }
+
+document.addEventListener('click', function(event) {
+  const perfil = document.getElementById('perfil');
+  
+  if (perfil.style.display !== 'none' && !perfil.contains(event.target)) {
+    const perfil = document.getElementById('perfil');
+    perfil.style.display = 'none'; 
+  }
+});
 
 // ----------------------------------------------------------------------------------
 // PARRAFO DE BIENVENIDA EN EL INICIO
