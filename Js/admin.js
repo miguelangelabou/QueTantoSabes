@@ -178,20 +178,19 @@ const ocultarPartidaGuardada = () => {
 const cargarAccionesUsuario = async (identificacion) => {
   const registrosContainer = document.getElementById("registros");
 
-  document.getElementById("error-sinIdentificador").style.display = "none";
   document.getElementById("error-sinRegistros").style.display = "none";
-  document.getElementById("registros").style.display = "block";
+  registrosContainer.style.display = "block";
   document.getElementById("boton-recargarAcciones").style.display = "flex";
   registrosContainer.innerHTML = "";
 
   if (!identificacion) {
-    document.getElementById("error-sinIdentificador").style.display = "block";
+    document.getElementById("error-sinRegistros").style.display = "block";
     return;
   }  
 
   const accionesUsuarioFetch = await fetchData('accionesDeUsuario', { identificacion });
 
-  if (accionesUsuarioFetch.length === 0) {
+  if (!accionesUsuarioFetch || accionesUsuarioFetch.length === 0) {
     document.getElementById("error-sinRegistros").style.display = "block";
     return;
   }
@@ -211,7 +210,6 @@ const cargarAccionesUsuario = async (identificacion) => {
     fragment.appendChild(accionDiv);
   });
 
-  // Agregar el fragmento al DOM de una sola vez
   registrosContainer.appendChild(fragment);
 };
 
