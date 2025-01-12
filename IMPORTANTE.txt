@@ -31,4 +31,7 @@ PASOS PARA EJECUTAR EL PROYECTO:
     header('Location: pages/inicio.html');
     exit;
 
-5) Estaria listo, disfruta el juego!
+5) Para tener permisos ilimitados en la base de datos en la tabla jugadores_tbl busca tu cuenta y en la columna de NIVEL
+   modifica el tuyo a MANAGER.
+
+6) Estaria listo, disfruta el juego web!
