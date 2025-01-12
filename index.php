@@ -41,6 +41,18 @@ function generarToken($payload) {
     return JWT::encode($payload, TOKEN_SECRET, 'HS256', null, $options);
 }
 
+function obtenerIP() {
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        return $_SERVER['HTTP_CLIENT_IP'];
+    }
+
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        return $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+
+    return ($_SERVER['REMOTE_ADDR'] === '::1') ? '127.0.0.1' : $_SERVER['REMOTE_ADDR'];
+}
+
 function ejecutarConsulta($conn, $sql, $valores = []) {
     $stmt = $conn->prepare($sql);
     if ($valores) {
@@ -134,7 +146,7 @@ function manejarRegistro($conn, $web) {
     $email = $web['email'];
     $contrasena = $web['contrasena'];
     $genero = $web['genero'];
-    $ip = $_SERVER['REMOTE_ADDR'];
+    $ip = obtenerIP();
 
     $contrasenaCrypt = password_hash($contrasena, PASSWORD_BCRYPT);
     $imagenes = ($genero === "masculino") ? [
@@ -192,7 +204,7 @@ function manejarVerificarEmailTelefono($conn, $web) {
 function manejarLogin($conn, $web) {
     $email = $web['email'];
     $contrasena = $web['contrasena'];
-    $ip = $_SERVER['REMOTE_ADDR'];
+    $ip = obtenerIP();
     $usuario = obtenerUsuarioPorEmail($conn, $email);
     
     if (!$usuario) {
@@ -291,7 +303,7 @@ function manejarBuscarUsuario($conn, $web) {
     $id = $descifrado['id'];
     $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
 
-    registrarAccion($conn, $admin['id'], "Se solicitó información sobre el usuario: " . $usuario['nombre_completo'] . " (ID: " . $usuario['id'] . ").", $_SERVER['REMOTE_ADDR'], "Se buscó información sobre dicho usuario en la base de datos.");
+    registrarAccion($conn, $admin['id'], "Se solicitó información sobre el usuario: " . $usuario['nombre_completo'] . " (ID: " . $usuario['id'] . ").", obtenerIP(), "Se buscó información sobre dicho usuario en la base de datos.");
 
     if ($usuario['ultima_sesion'] === null) {
         $usuario['ultima_sesion'] = $usuario['fecha_registro'];
@@ -474,7 +486,7 @@ function manejarInactivarUsuario($conn, $web) {
     $usuario = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$identificacion])->fetch_assoc();
     $admin = ejecutarConsulta($conn, "SELECT * FROM jugadores_tbl WHERE id = ?;", [$id])->fetch_assoc();
 
-    registrarAccion($conn, $admin['id'], "Se actualizó el estado a '" . ($web['estado'] === 'ACTIVO' ? 'INACTIVO' : 'ACTIVO') . "' al usuario: " . $usuario['nombre_completo'] . " (" . $usuario['id'] . ").", $_SERVER['REMOTE_ADDR'], "El administrador ha activado o desactivado una cuenta de la tabla 'usuarios'.");
+    registrarAccion($conn, $admin['id'], "Se actualizó el estado a '" . ($web['estado'] === 'ACTIVO' ? 'INACTIVO' : 'ACTIVO') . "' al usuario: " . $usuario['nombre_completo'] . " (" . $usuario['id'] . ").", obtenerIP(), "El administrador ha activado o desactivado una cuenta de la tabla 'usuarios'.");
     echo json_encode(['success' => true, 'message' => 'Usuario inactivado.']);
 }
 
@@ -512,7 +524,7 @@ function manejarCrearAccion($conn, $web) {
     $id = $descifrado['id'];
     $accion = $web['accion'];
     $SQLAccion = $web['SQLAccion'];
-    $ip = $_SERVER['REMOTE_ADDR'];
+    $ip = obtenerIP();
 
     registrarAccion($conn, $id, $accion, $ip, $SQLAccion);
 }
@@ -521,7 +533,7 @@ function manejarBuscarPartida($conn, $web) {
     $token = $web['token'];
     $borrar = $web['borrar'] ?? false;
     $idUsuarioADMIN = $web['idUsuarioADMIN'] ?? null;
-    $ip = $_SERVER['REMOTE_ADDR'];
+    $ip = obtenerIP();
 
     if ($idUsuarioADMIN) {
         if ($borrar) {
@@ -579,7 +591,7 @@ function manejarGuardarPartida($conn, $web) {
         $numerosUsados = $web['numerosUsados'];
         $tiempoPartida = $web['tiempoPartida'];
         $comodines = $web['comodines'];
-        $ip = $_SERVER['REMOTE_ADDR'];
+        $ip = obtenerIP();
 
         $descifrado = jwt_decode($token);
         $id = $descifrado['id'];
@@ -636,7 +648,7 @@ function manejarGanoPerdioNueva($conn, $web) {
             $tiempo = $web['tiempo'];
             $puntos = $web['puntos'];
             $preguntasNro = $web['preguntasNro'];
-            $ip = $_SERVER['REMOTE_ADDR'];
+            $ip = obtenerIP();
 
             $ganoOperdio = $derrota === true ? "perdido" : "ganado";
             registrarAccion($conn, $id, "El jugador ha terminado una partida donde ha " . $ganoOperdio . " teniendo " . $puntos . " puntos, respondido " . $preguntasNro . " preguntas y con un cronómetro de " . $tiempo . " segundos.", $ip, "Se actualizó la información del usuario en la tabla de 'estadisticas_jugadores_tbl' dependiendo de que si el jugador ganó o perdió.");
