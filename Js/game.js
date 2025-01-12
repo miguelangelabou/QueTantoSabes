@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     preguntaNro++;
 
-    const posicion = ["opcion1", "opcion2", "opcion3", "opcion4"];//opcionRandom();
+    const posicion = opcionRandom(); //["opcion1", "opcion2", "opcion3", "opcion4"]; TODAS LAS RESPUESTAS SON A
     const data = await fetchData('preguntaRandom', { id: id_pregunta, preguntaNro, numerosUsados });
     console.log('Respuesta de fetchData:', data);
 
