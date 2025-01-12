@@ -1,0 +1,34 @@
+PASOS PARA EJECUTAR EL PROYECTO:
+
+1) Instalar XAMPP, PHP, Composer, MySQL y ejecutar el Apache y MySQL en XAMPP
+
+2) Crear la base de datos 'proyecto_db' en http://localhost/phpmyadmin/ y luego subir todas las TABLAS de db.sql
+
+3) Modificar lineas de index.php de la 840 a la 849 a esto y entrar al link "http://localhost/quetantosabes":
+
+    /*
+    ALMACENAR TODAS LAS PREGUNTAS DEL ARCHIVO JSON A LA BASE DE DATOS*/
+
+    $json_data = file_get_contents('preguntas.json');
+    $data = json_decode($json_data, true);
+    almacenarPreguntas($conn, $data['trivia']);
+    
+
+    //header('Location: pages/inicio.html');
+    //exit;
+
+4) Despues de que la pagina completamente las preguntas de preguntas.json se habran subido a la base de datos.
+   Ahora se debe volver el codigo a como estaba en las mismas lineas:
+
+    /*
+    ALMACENAR TODAS LAS PREGUNTAS DEL ARCHIVO JSON A LA BASE DE DATOS
+
+    $json_data = file_get_contents('preguntas.json');
+    $data = json_decode($json_data, true);
+    almacenarPreguntas($conn, $data['trivia']);*/
+    
+
+    header('Location: pages/inicio.html');
+    exit;
+
+5) Estaria listo, disfruta el juego!
